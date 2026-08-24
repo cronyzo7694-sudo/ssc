@@ -18,6 +18,7 @@ SSC-CGL/{2016..2025}/            one folder per calendar year
 SSC-CHSL/{2016..2025}/           (same layout)
 verification/CGL_verification.md  full verification log (methodology, per-file log, conflicts, corrections)
 verification/CHSL_verification.md (same for CHSL, incl. the Aug-2023 per-shift PDF map)
+verification/SSC_Portal_audit.md  SSC Portal inventory, provenance classification and skip decisions
 tools/schema.json                 JSON schema for paper files
 tools/validate.py                 structure/field/numbering/options/answer validator
 tools/fingerprint.py              cross-file duplication / mislabel detection
