@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────
+# READY-MADE GITHUB PAGES DEPLOY WORKFLOW
+# ─────────────────────────────────────────────────────────────
+# WHY THIS FILE EXISTS:
+#   This repo's GitHub Pages setting is "Source: GitHub Actions"
+#   (build_type=workflow), which REQUIRES a deploy workflow.
+#   No workflow existed, so pushes to main stopped deploying —
+#   that is why the live site was frozen on an old version.
+#
+# TO ACTIVATE (if it is not already at .github/workflows/deploy.yml):
+#   1. Create file:  .github/workflows/deploy.yml
+#   2. Paste this exact content into it, commit to main.
+#   Alternative: Settings → Pages → Source: "Deploy from a branch"
+#                → Branch: main / (root). Then this file is unneeded.
+# ─────────────────────────────────────────────────────────────
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact (repository root)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
