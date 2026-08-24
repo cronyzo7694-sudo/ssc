@@ -12,7 +12,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FILE_RE = re.compile(r'^(\d{4})-(\d{2})-(\d{2})_Shift-(\d+)\.json$')
+FILE_RE = re.compile(r'^(\d{4})-(\d{2})-(\d{2})_Shift-(\d+)(?:_(PARTIAL|INCOMPLETE))?\.json$')
 REQUIRED_TOP = ["exam", "year", "tier", "date", "shift", "source",
                 "source_type", "verification_status", "questions"]
 REQUIRED_Q = ["question_number", "subject", "question", "options",
@@ -85,8 +85,9 @@ def validate_file(path):
         errors.append(f"bad shift value '{data['shift']}'")
     elif data["shift"] != f"Shift-{fshift}":
         errors.append(f"shift '{data['shift']}' != filename shift 'Shift-{fshift}'")
-    if data["verification_status"] not in ("verified", "unverified"):
-        errors.append("verification_status must be 'verified' or 'unverified'")
+    valid_statuses = ("verified", "unverified", "partial_verified", "partial_memory_based")
+    if data["verification_status"] not in valid_statuses:
+        errors.append(f"verification_status must be one of {valid_statuses}")
     if data["source_type"] not in SOURCE_TYPES:
         errors.append(f"source_type '{data['source_type']}' not in {SOURCE_TYPES}")
     if not str(data.get("source", "")).strip():

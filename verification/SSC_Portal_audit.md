@@ -123,10 +123,11 @@ The PDF extraction showed continuous section-local numbering 1–25 in the acces
 - Full-paper candidates found: yes, especially CGL 2024 and CHSL 2024 landing pages.
 - First-paper gate passed: **NO**.
 - Batch processing started: **NO** (correctly stopped after the failed gate).
-- New JSON papers added: **0**.
+- New complete JSON papers added: **0**.
+- New partial JSON recovery added: **1** — `SSC-CHSL/2024/2024-07-04_Shift-1_PARTIAL.json` containing 14 directly reported Quant stems from Career Power.
 - Existing verified papers changed: **0**.
 - Duplicate candidates skipped: **9** (three existing CGL candidates and six existing CHSL candidates, counted by overlap with portal index entries; no duplicate files added).
-- Incomplete/unvalidated candidates: retained as `missing` in coverage metadata.
+- Incomplete/unvalidated candidates: retained as `missing` in complete coverage metadata; the one safely attributable partial recovery is preserved separately and excluded from complete counts.
 - Portal answer keys: not used to populate `correct_answer`; existing policy remains `null` unless a reliable answer source is independently verified.
 
 `source` for any future recovered file from this archive must include the exact portal landing/PDF URL, and `source_type` must be `third_party_archive`. The root index alone must not be used as the only provenance for a paper.

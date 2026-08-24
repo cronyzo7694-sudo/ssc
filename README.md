@@ -4,10 +4,10 @@ Verified, one-shift-per-file repository of **SSC CGL** and **SSC CHSL** Tier I (
 
 ## ⚠️ Status: HONEST BEST-EFFORT — NOT COMPLETE COVERAGE
 
-- **12 verified shift files** exist (CGL: 3 × 2023 + 3 × 2025; CHSL: 6 × Aug-2023). Every remaining documented expected shift is listed as **MISSING** in the per-year `metadata.json` schedules and in the tables below — missing is documented, never hidden.
+- **12 complete verified shift files** exist (CGL: 3 × 2023 + 3 × 2025; CHSL: 6 × Aug-2023). One separate partial memory-based file preserves 14 confidently attributed CHSL 2024 Quant stems; it is not counted as a complete shift. Every remaining documented expected shift is listed as **MISSING** in the per-year `metadata.json` schedules and in the tables below — missing is documented, never hidden.
 - **No question was invented, completed, simplified or paraphrased.** Anything not recoverable from a source's text layer (image-only question bodies, page-boundary losses, the 30-page PDF parse limit) is marked `[NOT RECOVERABLE: <exact reason>]` in place.
 - **No `correct_answer` is set anywhere.** SSC's answer keys are login-gated per candidate and no machine-accessible consolidated key exists in this environment; candidate "Chosen Option" values and Adda247's embedded ✓/X key-marks are recorded in `answer_note` as *reference only* and are explicitly UNVERIFIED against the SSC official key.
-- Files that could not be verified are **not** present — a shift is either a verified file or a documented MISSING entry.
+- Unverified complete candidates are **not** present. Clearly labelled partial recoveries may be present, but they are never counted as complete/verified shifts.
 
 ## Repository layout
 
@@ -19,6 +19,7 @@ SSC-CHSL/{2016..2025}/           (same layout)
 verification/CGL_verification.md  full verification log (methodology, per-file log, conflicts, corrections)
 verification/CHSL_verification.md (same for CHSL, incl. the Aug-2023 per-shift PDF map)
 verification/SSC_Portal_audit.md  SSC Portal inventory, provenance classification and skip decisions
+verification/source_ledger.md      multi-source discovery ledger and recovery statuses
 tools/schema.json                 JSON schema for paper files
 tools/validate.py                 structure/field/numbering/options/answer validator
 tools/fingerprint.py              cross-file duplication / mislabel detection
@@ -56,6 +57,19 @@ tools/coverage.py                 expected-vs-collected audit (+ --sync for meta
 | SSC CHSL | 2025 | 0 (+19d) | 0 | 0 | 0 | 0 |
 | **SSC CHSL** | **Total** | **76** | **6** | **6** | **70** | **0** |
 | **Both** | **Total** | **284** | **12** | **12** | **272** | **0** |
+
+## Recovery status counts (kept separate)
+
+| Category | CGL | CHSL | Total |
+|---|---:|---:|---:|
+| Complete verified | 6 | 6 | 12 |
+| Complete memory-based (additional) | 0 | 0 | 0 |
+| Partial verified | 0 | 0 | 0 |
+| Partial memory-based | 0 | 1 | 1 |
+| Unverified complete candidates | 0 | 0 | 0 |
+| Missing documented shifts | 202 | 70 | 272 |
+
+The partial file is `SSC-CHSL/2024/2024-07-04_Shift-1_PARTIAL.json`; it contains 14 Quant stems, no recoverable options, and is not counted as a complete paper.
 
 ## JSON schema (paper files)
 
