@@ -1,0 +1,1331 @@
+{
+ "exam": "SSC CGL",
+ "year": 2023,
+ "tier": "Tier I",
+ "date": "2023-07-14",
+ "shift": "Shift-2",
+ "source": "Cracku (Unacademy) - SSC CGL Tier I 2023 Question Paper Shift 2 (July 14th), memory-based solved question paper with all 100 questions: https://cracku.in/ssc-cgl-tier-1-14th-july-2023-shift-2-question-paper-solved (accessed 2026-08-24). Primary and only complete question-level source found for this specific date+shift (the Adda247/Collegedekho exam-screen export used for Shift 1, ssc_cgl_2023_tier_1_14th-july-2023-shift-2.pdf, no longer exists on the CDN - HTTP NoSuchKey; the Adda247 'Memory Based Paper Based on 14-Jul-2023 Exam' PDF is a day-level compilation whose questions do NOT match this shift).",
+ "corroborating_sources": [
+  {
+   "name": "CareerPower (Adda247 network) - SSC CGL Shift 2 Exam Analysis 2023, 14 July (published the day of the exam)",
+   "url": "https://www.careerpower.in/blog/ssc-cgl-shift-2-exam-analysis-2023-14-july",
+   "note": "Confirms this date+shift was conducted and states the Tier I pattern used: 4 sections (GI&R 25, GA 25, Quant 25, English 25) = 100 questions, 200 marks, 60 minutes, -0.50 negative marking. Section-wise good attempts (Reasoning 18-20, GA 17-19, Quant 19-21, English 17-19) are consistent with a standard CGL 2023 shift."
+  },
+  {
+   "name": "HelloScholar - SSC CGL Exam Analysis 14 July 2023 All Shifts (published 14 July 2023)",
+   "url": "https://www.helloscholar.in/ssc-cgl-exam-analysis-14-july-2023/",
+   "note": "Independent same-day publication listing 4 shift timings for 14 July 2023 (Shift 1 09:00-10:00, Shift 2 11:45-12:45, Shift 3 14:30-15:30, Shift 4 17:15-18:15), corroborating that a Shift 2 took place at 11:45 AM. Page body no longer retrievable via this environment's fetcher (returns 404); shift-timing detail corroborated from the indexed search snippet. Topic list in that snippet (Article 143, UCC, Nobel Prize, TAPI Basin) is from the all-shifts compilation, not shift-specific."
+  }
+ ],
+ "source_type": "MEMORY-BASED",
+ "verification_status": "verified",
+ "notes": "AUTHENTICITY: SSC does not publish CGL Tier I question papers. No exam-screen capture (SSC CBE export) could be located for this specific shift, so this file is based on the single complete independent faculty reconstruction (Cracku, accessed 2026-08-24); date/shift/pattern are independently corroborated as listed in corroborating_sources. The paper should therefore be treated as a faithful memory-based record, NOT as an official SSC document. SECTION ORDER: General Intelligence and Reasoning (Q1-25), General Awareness (Q26-50), Quantitative Aptitude (Q51-75), English Comprehension (Q76-100); global numbering follows that order (consistent with the screen layout of the Shift-1 exam export and with the corroborating pattern table). FIGURES: Q2, Q3, Q7, Q10, Q17, Q23 are non-verbal items and Q55, Q65 are pie-chart items; the source renders them as images not recoverable in this environment, so the question stems are preserved as text and the figures/options are marked [figure - not recoverable]. MATHEMATICAL FORMULAE were typeset in LaTeX in the source and are transcribed here as plain text (e.g. Q54, Q56, Q59, Q63, Q64, Q67, Q72, Q73). KNOWN SOURCE ARTIFACTS are flagged per-question in answer_note (e.g. Q42 option A 'Baikal rocks' is likely a corruption in the source; Q27 option D '9rd' is a deliberate distractor preserved verbatim). ANSWERS: The official SSC answer key for this exam (tentative key uploaded 01-Aug-2023 per notice Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023) is only downloadable by candidates logged into ssc.gov.in/ssc.nic.in, and Cracku's faculty solutions on this page are login-gated; no accessible authoritative per-question answer source was available in this environment. Per project answer policy, correct_answer is null for all questions and nothing has been filled in by inference.",
+ "questions": [
+  {
+   "question_number": 1,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that represents the letters that, when sequentially placed from left to right in the blanks below, will complete the letter series.\nMN _ _ SM _ PO _ _ N _ OSM _ P _ S",
+   "options": {
+    "A": "PONSMPNO",
+    "B": "PNOSMPNO",
+    "C": "PONMSPNO",
+    "D": "PONSNOMP"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 2,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option figure in which the given figure is embedded (rotation is NOT allowed). [figure - given figure and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 3,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the figure that will replace the question mark (?) in the following figure series. [figure - series and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 4,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which number should replace the question mark (?) in the following number series?\n39, 42, 48, 57, 69, ?, 102",
+   "options": {
+    "A": "87",
+    "B": "79",
+    "C": "81",
+    "D": "84"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 5,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the set in which the numbers are related in the same way as are the numbers of the following sets.\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding / subtracting / multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed)\n(8, 44, 3)\n(12, 60, 3)",
+   "options": {
+    "A": "(12, 68, 5)",
+    "B": "(8, 50, 2)",
+    "C": "(17, 56, 9)",
+    "D": "(23, 98, 5)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 6,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the following numbers will replace the question mark (?) in the given series?\n33, 80, 108, ?, 183, 230, 258",
+   "options": {
+    "A": "160",
+    "B": "155",
+    "C": "143",
+    "D": "138"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 7,
+   "subject": "General Intelligence and Reasoning",
+   "question": "A paper is folded and cut as shown below. How will it appear when unfolded? [figure - folding/cutting diagram and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 8,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the correct combination of mathematical signs to sequentially replace the * signs and to balance the given equation.\n150 * 3 * 10 * 2 * 7 * 46",
+   "options": {
+    "A": "÷, +, −, ×, =",
+    "B": "−, ×, +, ÷, =",
+    "C": "+, −, ÷, ×, =",
+    "D": "×, +, ÷, −, ="
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 9,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the set in which the number are related in the same way as the numbers of the given sets. (NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed.)\n(31, 47, 35)\n(51, 67, 55)",
+   "options": {
+    "A": "(33, 47, 35)",
+    "B": "(32, 39, 27)",
+    "C": "(13, 29, 17)",
+    "D": "(21, 36, 35)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 10,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the correct mirror image of the given combination when the mirror is placed at MN as shown below. [figure - given combination and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 11,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the third word in the same way as the second word is related to the first word. (The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word)\nOrthopaedic : Bone :: Cardiologist : ?",
+   "options": {
+    "A": "Kidney",
+    "B": "Heart",
+    "C": "Lungs",
+    "D": "Brain"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 12,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that represents the letters that, when placed from left to right in the following blanks, will complete the letter-series.\n_ V J R W B _ _ R W B V L _ _ B V _ _ W",
+   "options": {
+    "A": "A V K R W M R",
+    "B": "A W K R X N R",
+    "C": "B V K R W M R",
+    "D": "B W K R W M R"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 13,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three statements are given, followed by four conclusions numbered I, II, III and IV. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\nStatements:\nSome coolers are mixers.\nSome mixers are scissors.\nSome scissors are knives.\nConclusions:\nI. Some knives are mixers.\nII. Some scissors are coolers.\nIII. Some knives are coolers.\nIV. No knife is a mixer.",
+   "options": {
+    "A": "Only conclusions III and IV follow",
+    "B": "Only conclusions I and III follow",
+    "C": "None of the conclusions follow",
+    "D": "Only conclusions II and IV follow"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 14,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.\nNHT : PEX : : KDF : MAJ :: UMR : ?",
+   "options": {
+    "A": "WJV",
+    "B": "VJW",
+    "C": "WPN",
+    "D": "XIW"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 15,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the following is a leap year?",
+   "options": {
+    "A": "1076",
+    "B": "1675",
+    "C": "1354",
+    "D": "1998"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 16,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Pointing to Suresha, I said, “She is the daughter of the brother of the son of my wife.” How am I related to Suresha?",
+   "options": {
+    "A": "Grandmother",
+    "B": "Grand aunt",
+    "C": "Grandfather",
+    "D": "Granduncle"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 17,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '4'. [figure - three dice positions not recoverable from text sources]",
+   "options": {
+    "A": "6",
+    "B": "5",
+    "C": "1",
+    "D": "2"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 18,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.\nWOODLAND : ZIRXOUQX :: PERIODIC : SYUCRXLW :: MAGAZINE : ?",
+   "options": {
+    "A": "HERDWBMO",
+    "B": "LPWXSYCZ",
+    "C": "NSCAQOLP",
+    "D": "PUJUCCQY"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 19,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three of the following four triads are alike in a certain way as they are formed by performing same mathematical operations among themselves and thus form a group. Which triad does NOT belong to that group?",
+   "options": {
+    "A": "36 : 13 : 7",
+    "B": "16 : 9 : 5",
+    "C": "72 : 16 : 8",
+    "D": "1 : 3 : 2"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 20,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which two signs should be interchanged to make the given equation correct?\n294 + 14 × 4 ÷ 16 − 67 = 33",
+   "options": {
+    "A": "+ and ÷",
+    "B": "× and ÷",
+    "C": "+ and −",
+    "D": "− and ÷"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 21,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three of the following four letter-clusters are alike in a certain way and one is different. Pick the odd one out.",
+   "options": {
+    "A": "KPH",
+    "B": "GTD",
+    "C": "DWA",
+    "D": "EVC"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 22,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the set in which the numbers are related in the same way as are the numbers of the given sets.\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13 - Operations on 13 such as adding /Subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is NOT allowed)\n(14, 378, 9)\n(18, 432, 8)",
+   "options": {
+    "A": "(5, 125, 8)",
+    "B": "(15, 405, 9)",
+    "C": "(15, 305, 7)",
+    "D": "(11, 265, 8)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 23,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the figure from the options that can replace the question mark (?) and complete the given pattern. [figure - pattern and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 24,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three statements are given followed by three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\nStatements:\nAll rice are grains.\nAll pulses are grains.\nAll grains are edibles.\nConclusions:\nI. All rice are edibles.\nII. All pulses are edible.\nIII. Some edibles are grains.",
+   "options": {
+    "A": "All conclusions follow",
+    "B": "Only conclusions II and III follow",
+    "C": "Only conclusions I and II follow",
+    "D": "Only conclusions I and III follow"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 25,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that represents the correct order of the given words as they would appear in an English dictionary.\n1. Strident\n2. Student\n3. Shirking\n4. Stuffy\n5. Spider\n6. Spawn",
+   "options": {
+    "A": "3, 6, 5, 1, 2, 4",
+    "B": "3, 5, 6, 1, 2, 4",
+    "C": "3, 6, 5, 1, 4, 2",
+    "D": "3, 5, 6, 1, 4, 2"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 26,
+   "subject": "General Awareness",
+   "question": "Which of the following musical instruments were played by the musicians such as Shakoor Khan and Pandit Ram Narayan?",
+   "options": {
+    "A": "Sarangi",
+    "B": "Shehnai",
+    "C": "Guitar",
+    "D": "Veena"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 27,
+   "subject": "General Awareness",
+   "question": "According to IBEF 2021, the Indian pharmaceutical industry ranks ______ in the world on the basis of volume.",
+   "options": {
+    "A": "9th",
+    "B": "5th",
+    "C": "11th",
+    "D": "9rd"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Option D '9rd' is a deliberately misspelled distractor in the source; preserved verbatim."
+  },
+  {
+   "question_number": 28,
+   "subject": "General Awareness",
+   "question": "When did Linus Carl Pauling receive the Nobel Prize in Chemistry for ‘his research into the nature of the chemical bond and its applications to the elucidation of the structure of complex substances’?",
+   "options": {
+    "A": "1954",
+    "B": "1950",
+    "C": "1956",
+    "D": "1958"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 29,
+   "subject": "General Awareness",
+   "question": "Daskathia of ________ is the tribal dance performed by two males depicting the historic and Puranic events.",
+   "options": {
+    "A": "Uttar Pradesh",
+    "B": "Gujarat",
+    "C": "Goa",
+    "D": "Odisha"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 30,
+   "subject": "General Awareness",
+   "question": "KA Najeeb Vs Union of India case deals with violation of rights under ____________.",
+   "options": {
+    "A": "Article 16",
+    "B": "Article 21",
+    "C": "Article 14",
+    "D": "Article 19"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 31,
+   "subject": "General Awareness",
+   "question": "Which of the following is the red algae?",
+   "options": {
+    "A": "Rhodophyceae",
+    "B": "Chlorophyceae",
+    "C": "Liverwort",
+    "D": "Phaeophyceae"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 32,
+   "subject": "General Awareness",
+   "question": "What will be the atomic number of an element X which is placed in period 2 and group 17?",
+   "options": {
+    "A": "8",
+    "B": "7",
+    "C": "10",
+    "D": "9"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 33,
+   "subject": "General Awareness",
+   "question": "In which two consecutive years was there no chief guest at the Republic Day celebrations of India?",
+   "options": {
+    "A": "2021 and 2022",
+    "B": "2019 and 2020",
+    "C": "2020 and 2021",
+    "D": "2018 and 2019"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 34,
+   "subject": "General Awareness",
+   "question": "Fisher’s quantity theory is explained by his famous equation given as _________.",
+   "options": {
+    "A": "MP = VT",
+    "B": "MV = PT",
+    "C": "MT = PV",
+    "D": "PV = MV"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 35,
+   "subject": "General Awareness",
+   "question": "Before the rise of the modern industrial system, Indian exports consisted chiefly of manufactures like_________.",
+   "options": {
+    "A": "electricals",
+    "B": "chemicals",
+    "C": "light machinery",
+    "D": "cotton and silk fabrics"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 36,
+   "subject": "General Awareness",
+   "question": "The Kanchenjunga peak is located in which sub-division of Himalaya from the following?",
+   "options": {
+    "A": "Kashmir Himalayas",
+    "B": "Darjeeling and Sikkim Himalayas",
+    "C": "Himachal and Uttaranchal Himalayas",
+    "D": "Arunachal Himalayas"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 37,
+   "subject": "General Awareness",
+   "question": "Guru Bipin Singh, a Nrityacharya awardee, Sangeet Natak Akademi awardee and Kalidas Samman awardee, was renowned for promoting which classical dance form?",
+   "options": {
+    "A": "Manipuri",
+    "B": "Kuchipudi",
+    "C": "Odissi",
+    "D": "Kathak"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 38,
+   "subject": "General Awareness",
+   "question": "Who holds the authority of transferring judges from one High court to another High Court?",
+   "options": {
+    "A": "The senior most judge of Supreme Court",
+    "B": "The chief justice of India",
+    "C": "The President of India",
+    "D": "The law minister of India"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 39,
+   "subject": "General Awareness",
+   "question": "_____________ is the process of complete or incomplete oxidation or hydrolysis of fats and oils when exposed to air, light, moisture, or bacterial action that spoils food.",
+   "options": {
+    "A": "Rancidification",
+    "B": "Hydrogenation",
+    "C": "Auto-oxidation",
+    "D": "Auto reduction"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 40,
+   "subject": "General Awareness",
+   "question": "Which of the following is a Tibeto-Burmese language?",
+   "options": {
+    "A": "Odia",
+    "B": "Tripuri",
+    "C": "Assamese",
+    "D": "Tulu"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 41,
+   "subject": "General Awareness",
+   "question": "Who among the following was the author of the play ‘Mrichchhakatika’?",
+   "options": {
+    "A": "Kalidasa",
+    "B": "Amarasimha",
+    "C": "Shudraka",
+    "D": "Bhasa"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 42,
+   "subject": "General Awareness",
+   "question": "Select the FALSE statement from the given options.",
+   "options": {
+    "A": "Baikal rocks are formed from the dissolved materials that precipitate from the solution.",
+    "B": "The sedimentary rocks are formed by the deposition and subsequent cementation of that material within bodies of water and at the surface of the earth.",
+    "C": "Metamorphic rocks may be formed simply by being deep beneath the Earth’s surface, subjected to high temperatures and the great pressure of the rock layers above it.",
+    "D": "Igneous rock is formed through the cooling and solidification of magma or lava."
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Source artifact: option A reads 'Baikal rocks', which is almost certainly a corruption of 'Residual rocks' (chemical sedimentary rocks formed from dissolved materials precipitating from solution). Preserved verbatim from the source."
+  },
+  {
+   "question_number": 43,
+   "subject": "General Awareness",
+   "question": "Pathans in North-West India organised the society of Khudai Khidmatgars, popularly known as Red Shirt, under whose leadership?",
+   "options": {
+    "A": "Muhammad Ali",
+    "B": "MA Ansari",
+    "C": "Khan Abdul Ghaffar Khan",
+    "D": "Hasrat Mohani"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 44,
+   "subject": "General Awareness",
+   "question": "In which of the following States/Union Territories were the 36th National Games held?",
+   "options": {
+    "A": "Rajasthan",
+    "B": "New Delhi",
+    "C": "Gujarat",
+    "D": "Kerala"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 45,
+   "subject": "General Awareness",
+   "question": "Which of the following was established in Bombay in 1875?",
+   "options": {
+    "A": "Satyashodhak Samaj",
+    "B": "Aligarh movement",
+    "C": "Brahma Samaj",
+    "D": "Arya Samaj"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 46,
+   "subject": "General Awareness",
+   "question": "Which of the following options conveys the meaning of the word ‘Republic’ in the Indian Constitution?",
+   "options": {
+    "A": "Elected head",
+    "B": "Nominated head",
+    "C": "Subordinate head",
+    "D": "Hereditary head"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 47,
+   "subject": "General Awareness",
+   "question": "Who among the following was defeated in the battle of Chanderi in 1528?",
+   "options": {
+    "A": "Shershah Suri",
+    "B": "Babur",
+    "C": "Sikandar Lodi",
+    "D": "Medini Rai"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 48,
+   "subject": "General Awareness",
+   "question": "The venue of the 2020 Olympic Games was __________.",
+   "options": {
+    "A": "Sydney",
+    "B": "Rio",
+    "C": "Tokyo",
+    "D": "Los Angeles"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 49,
+   "subject": "General Awareness",
+   "question": "When was the International Day of the Girl Child 2021 celebrated?",
+   "options": {
+    "A": "14 October",
+    "B": "12 October",
+    "C": "13 October",
+    "D": "11 October"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 50,
+   "subject": "General Awareness",
+   "question": "In January 2022, which State Government has extended its integrated initiative for the empowerment of persons with disabilities (PwDs) — the Bhima Bhoi Bhinnakhyama Samarthya Abhiyan (BBSA) - for the next five years?",
+   "options": {
+    "A": "Odisha",
+    "B": "Manipur",
+    "C": "Jharkhand",
+    "D": "West Bengal"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 51,
+   "subject": "Quantitative Aptitude",
+   "question": "In a race around a circular cycling track of 75 km, two cyclists are riding at a speed of 30 km/h and 25 km/h. After what time (in hours) will they meet at the point from where they started their journey?",
+   "options": {
+    "A": "16",
+    "B": "7",
+    "C": "14",
+    "D": "15"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 52,
+   "subject": "Quantitative Aptitude",
+   "question": "P is two times more efficient than Q. P is able to complete a piece of work in 40 days less than Q. Working together, the whole number of days taken by them to complete the work is:\n(Round off to the nearest integer)",
+   "options": {
+    "A": "26",
+    "B": "25",
+    "C": "27",
+    "D": "28"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 53,
+   "subject": "Quantitative Aptitude",
+   "question": "In an election, 2% persons enrolled in the voter list did not participate and 500 votes were invalid. Two candidates A and B fought the election, and A defeated B by 200 votes. If 43% of the persons enrolled in the voter list casted their votes in favour of A, then what is the number of the total casted votes?",
+   "options": {
+    "A": "2450",
+    "B": "2800",
+    "C": "3000",
+    "D": "3250"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 54,
+   "subject": "Quantitative Aptitude",
+   "question": "Evaluate the following.\nsin 25° sin 65° − cos 25° cos 65°.",
+   "options": {
+    "A": "40",
+    "B": "4",
+    "C": "0",
+    "D": "1"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 55,
+   "subject": "Quantitative Aptitude",
+   "question": "Study the given pie chart and answer the question that follows. [figure - pie chart not recoverable from text sources]\nThe population of village D in 2020 was 10,500. What was the population of village A in 2020? Total population of these six villages is 100%.",
+   "options": {
+    "A": "15,570",
+    "B": "15,750",
+    "C": "17,550",
+    "D": "7,875"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 56,
+   "subject": "Quantitative Aptitude",
+   "question": "What is the value of 64x³ + 38x²y + 20xy² + y³, when x = 3 and y = -4?",
+   "options": {
+    "A": "1236",
+    "B": "488",
+    "C": "536",
+    "D": "1256"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 57,
+   "subject": "Quantitative Aptitude",
+   "question": "X and Y can complete a work in 9 days and 36 days, respectively. X begins to do the work and they work alternately one at a time for one day each. The whole work will be complete in:",
+   "options": {
+    "A": "12½ days",
+    "B": "14¼ days",
+    "C": "13⅓ days",
+    "D": "15⅕ days"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 58,
+   "subject": "Quantitative Aptitude",
+   "question": "A shopkeeper uses 940 gm weight in place of one kg weight. He sells it at 4% profit. What will be the actual profit percentage? (rounded off to two decimal places)",
+   "options": {
+    "A": "9.25%",
+    "B": "10.32%",
+    "C": "10.64%",
+    "D": "10.96%"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 59,
+   "subject": "Quantitative Aptitude",
+   "question": "If D is the midpoint of BC in △ABC and ∠A = 90°, then AD = ________.",
+   "options": {
+    "A": "BC/4",
+    "B": "2BC",
+    "C": "BC/2",
+    "D": "BC"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 60,
+   "subject": "Quantitative Aptitude",
+   "question": "In what ratio must water be mixed with milk, costing ₹32 per litre, in order to get a mixture costing ₹28 per litre?",
+   "options": {
+    "A": "8 : 1",
+    "B": "1 : 7",
+    "C": "1 : 8",
+    "D": "7 : 1"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 61,
+   "subject": "Quantitative Aptitude",
+   "question": "5 women and 9 girls earn a total of ₹18,720 in 9 days, while 9 women and 16 girls earn a total of ₹ 52,080 in 14 days. How much will 12 women and 7 girls together earn (in ₹) in 13 days?",
+   "options": {
+    "A": "42510",
+    "B": "41990",
+    "C": "42380",
+    "D": "42120"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 62,
+   "subject": "Quantitative Aptitude",
+   "question": "An electronic store owner allows two successive discounts of 20% and 25% on each item. The store has a reward points scheme which enables a customer to get free shopping worth ₹0.10 on every 1 reward point credited to the customer’s account on previous purchases from the store. A customer decides to buy a laptop that is marked at ₹72,000. What will be its net selling price if he has 2850 reward points to his credit?",
+   "options": {
+    "A": "₹43,200",
+    "B": "₹42,915",
+    "C": "₹42,215",
+    "D": "₹42,942"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 63,
+   "subject": "Quantitative Aptitude",
+   "question": "What is the value of a³ + b³ + c³ if (a + b + c) = 0?",
+   "options": {
+    "A": "a² + b² + c² - 3abc",
+    "B": "0",
+    "C": "3abc",
+    "D": "a² + b² + c² - ab - bc - ca"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 64,
+   "subject": "Quantitative Aptitude",
+   "question": "Evaluate the following:\ncos(36° + A) · cos(36° − A) + cos(54° + A) · cos(54° − A)",
+   "options": {
+    "A": "sin 2A",
+    "B": "cos A",
+    "C": "sin A",
+    "D": "cos 2A"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 65,
+   "subject": "Quantitative Aptitude",
+   "question": "Study the given pie-chart and answer the question that follows.\nThe pie-chart shows the expenditure incurred in the preparation of a book by a publisher, under various heads. [figure - pie chart not recoverable from text sources]\nWhat is the difference between the angle of pie-chart showing the expenditure incurred on binding and printing?",
+   "options": {
+    "A": "15°",
+    "B": "20°",
+    "C": "18°",
+    "D": "22°"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 66,
+   "subject": "Quantitative Aptitude",
+   "question": "If the total surface area of a cube is 24 sq.units, then what is the volume of the cube?",
+   "options": {
+    "A": "8 cu.units",
+    "B": "16 cu.units",
+    "C": "10 cu.units",
+    "D": "4 cu.units"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 67,
+   "subject": "Quantitative Aptitude",
+   "question": "Find the simplified value of the given expression.\n4 4/5 ÷ 3/5 of 5 + 4/5 × 3/10 − 1/5",
+   "options": {
+    "A": "1 4/5",
+    "B": "5",
+    "C": "1 16/25",
+    "D": "6"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 68,
+   "subject": "Quantitative Aptitude",
+   "question": "Let ABC, PQR be two congruent triangles such that angle A = angle P = 90°. If BC = 13cm, PR = 5cm, find AB.",
+   "options": {
+    "A": "12 cm",
+    "B": "8 cm",
+    "C": "10 cm",
+    "D": "5 cm"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 69,
+   "subject": "Quantitative Aptitude",
+   "question": "The mean proportion between 7 and 112 is:",
+   "options": {
+    "A": "42",
+    "B": "28",
+    "C": "21",
+    "D": "14"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 70,
+   "subject": "Quantitative Aptitude",
+   "question": "4 women or 6 boys can finish a work in the same number of days. A man can finish it in 60 days. In how many days can 5 women finish the work, working together every day?",
+   "options": {
+    "A": "4",
+    "B": "10",
+    "C": "8",
+    "D": "6"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 71,
+   "subject": "Quantitative Aptitude",
+   "question": "A 15 cm long perpendicular is drawn from the centre of a circle to its 40 cm long chord. Find the radius of the circle.",
+   "options": {
+    "A": "25 cm",
+    "B": "27 cm",
+    "C": "22 cm",
+    "D": "20 cm"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 72,
+   "subject": "Quantitative Aptitude",
+   "question": "What is the value of sec²54° − cot²36° + (3/2)sin²37° × sec²53° + (2/√3)tan 60°?",
+   "options": {
+    "A": "5/2",
+    "B": "9/2",
+    "C": "3/2",
+    "D": "7/2"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 73,
+   "subject": "Quantitative Aptitude",
+   "question": "If the simple interest at the same interest rate on ₹500 for 4 years and ₹700 for 2 years, combined together, is ₹280, then what is the rate of interest?",
+   "options": {
+    "A": "9 3/17 %",
+    "B": "6 5/17 %",
+    "C": "8 4/17 %",
+    "D": "7 3/17 %"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 74,
+   "subject": "Quantitative Aptitude",
+   "question": "A thief steals a van at 3:00 a.m. and drives it at a speed of 57 km/h. The thief is discovered at 4:00 a.m. and the owner starts the chase with another van at a speed of 76 km/h. At what time will he catch the thief?",
+   "options": {
+    "A": "7:30 a.m.",
+    "B": "7:00 p.m.",
+    "C": "7:00 a.m.",
+    "D": "6:00 a.m."
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 75,
+   "subject": "Quantitative Aptitude",
+   "question": "The present age of Rahim is five times the present age of his daughter, Savita. Seven years from now, Rahim will be three times as old as Savita. What is the present age (in years) of Rahim?",
+   "options": {
+    "A": "45",
+    "B": "35",
+    "C": "40",
+    "D": "30"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 76,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to substitute the underlined segment in the given sentence.\nThe boys and the teacher wants to win.",
+   "options": {
+    "A": "wants to won",
+    "B": "want to won",
+    "C": "want win",
+    "D": "want to win"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 77,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the underlined word.\nHe was compelled by everyone to join the group.",
+   "options": {
+    "A": "Demur",
+    "B": "Obscured",
+    "C": "Confessed",
+    "D": "Induced"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 78,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate meaning of the given idiom.\nTo kick the bucket",
+   "options": {
+    "A": "To be ill",
+    "B": "Be sad",
+    "C": "Be happy",
+    "D": "To die"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 79,
+   "subject": "English Comprehension",
+   "question": "Identify and correct the INCORRECTLY spelt word in the given sentence.\nThe Collector paid floral tributes to the statue of Mahatma Gandhi after hosting the flag.",
+   "options": {
+    "A": "floaral",
+    "B": "stateu",
+    "C": "trebutes",
+    "D": "hoisting"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 80,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the underlined word.\nDo you know the old adage 'the show must go on’?",
+   "options": {
+    "A": "Misconstruction",
+    "B": "Rebuke",
+    "C": "Dare",
+    "D": "Addiction"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 81,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in the blank.\nShe reminds me always that I ________ to be a little more careful.",
+   "options": {
+    "A": "had",
+    "B": "have",
+    "C": "must",
+    "D": "has"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 82,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nMr. Khanna is quite ______________ (callous) towards the victims of earthquake.",
+   "options": {
+    "A": "rationalistic",
+    "B": "unsympathetic",
+    "C": "sympathetic",
+    "D": "nondiplomatic"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 83,
+   "subject": "English Comprehension",
+   "question": "Sentences of a paragraph are given below. While the first and the last sentences (S1 and S6) are in the correct order, the sentences in between are jumbled up and named P, Q, R, S. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n(S1) Newspapers, especially of the popular variety, aim to do two things: to inform and to entertain.\n(P) Entertainment may be principally found in the centre pages of the newspaper in some of the feature articles and in some local news stories.\n(Q) The principal aim of the short news report on the front pages is to inform.\n(R) Most newspapers are published daily, and the news reporters must make sure that they have up-to-the minute news.\n(S) In their news reports they will aim to create a sense of immediacy, to convey the impression that they have ‘rushed’ the news to the reader and ‘that the information contained is the very latest.’\n(S6) Reporters also wish to create a sense of authenticity, that is, that their news is accurate and genuine.",
+   "options": {
+    "A": "Q, S, R, P",
+    "B": "R, P, S, Q",
+    "C": "S, R, P, Q",
+    "D": "P, Q, R, S"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 84,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate synonym of the given word from the sentence. Ready\nShe was preparing dinner in an organised manner using well-equipped tools while listening to the radio.",
+   "options": {
+    "A": "Preparing",
+    "B": "Listening",
+    "C": "Organised",
+    "D": "Equipped"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 85,
+   "subject": "English Comprehension",
+   "question": "Identify how you will ask everyone if the children were not reading the books in passive voice.",
+   "options": {
+    "A": "Were the books being read by the children?",
+    "B": "Were the books not being read by the children?",
+    "C": "Were the book not being read by the children?",
+    "D": "Were the children reading the books?"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 86,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate synonym of the given word.\nHostile",
+   "options": {
+    "A": "Pleasant",
+    "B": "Hospitable",
+    "C": "Empathetic",
+    "D": "Unfriendly"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 87,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe fact that God created man in his personal view by giving him an intellectual spirit elevates him above the beasts of the field.",
+   "options": {
+    "A": "own glory",
+    "B": "own capacity",
+    "C": "own image",
+    "D": "own idea"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 88,
+   "subject": "English Comprehension",
+   "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. During the summer, I noticed that the leaves of the tree were beginning to wither.\nB. I am especially proud of it, not only because it has survived several winters, but because it occasionally produces luscious peaches.\nC. The tree had grown against a warm wall on a sheltered side of the house.\nD. Last summer, I spent many days in the garden watching thousands of ants crawling up the trunk of my prize peach tree.",
+   "options": {
+    "A": "DCBA",
+    "B": "ABCD",
+    "C": "CDBA",
+    "D": "BDAC"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 89,
+   "subject": "English Comprehension",
+   "question": "Select the option that expresses the given sentence in active voice.\nWas the bag packed by Mary?",
+   "options": {
+    "A": "Was Mary pack the bag?",
+    "B": "Is Mary packing the bag?",
+    "C": "Do Mary pack the bag?",
+    "D": "Did Mary pack the bag?"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 90,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the word ‘Optimistic’ from the given sentence.\nAfter the incident, Radha prepared herself to stay positive even in gloomy days.",
+   "options": {
+    "A": "stay",
+    "B": "incident",
+    "C": "positive",
+    "D": "gloomy"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 91,
+   "subject": "English Comprehension",
+   "question": "The following sentence has been divided into parts. One of them may contain an error.\nSelect the part that contains the error from the given options. If you don’t find any error, mark ‘No error’ as your answer.\nAfter knowing truth, / the jury took the right decision / in the case.",
+   "options": {
+    "A": "The jury took the right decision",
+    "B": "In the case",
+    "C": "After knowing truth",
+    "D": "No error"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 92,
+   "subject": "English Comprehension",
+   "question": "In the following sentence, four words are underlined, out of which one word is incorrectly spelt. Identify the INCORRECTLY spelt word.\nA lot of spontanity is required from the speaker in an extempore speech. The speaker is expected to brainstorm ideas and give speech instantaneously.",
+   "options": {
+    "A": "instantaneously",
+    "B": "extempore",
+    "C": "brainstorm",
+    "D": "spontanity"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 93,
+   "subject": "English Comprehension",
+   "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA person who believes that laws and governments are not necessary.",
+   "options": {
+    "A": "Antagonist",
+    "B": "Antichrist",
+    "C": "Anarchist",
+    "D": "Adversary"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 94,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate meaning of the given idiom.\nMiss the boat",
+   "options": {
+    "A": "Missing a good opportunity",
+    "B": "Missing your medium of travel",
+    "C": "Missing good moments of your life",
+    "D": "Being too late"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 95,
+   "subject": "English Comprehension",
+   "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. The outcome is much more likely to be favourable if there is substantial international aid than if there is not.\nB. Many of the underdeveloped countries will promote the growth of their economies in one way or the other, no matter whether they receive substantial outside aid in the process or not.\nC. By substantial aid I mean not only large amounts of technical assistance but also of capital.\nD. The character of that development, however, is likely to be strongly influenced by the types of and amounts of aid available.",
+   "options": {
+    "A": "BDAC",
+    "B": "ABDC",
+    "C": "DABC",
+    "D": "DBCA"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 96,
+   "subject": "English Comprehension",
+   "question": "In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given. Select the most appropriate option to fill in blank no. 1.\nComprehension:\nThe Sun is the star at the center of (1) __________ Solar System. It is a nearly perfect ball of hot plasma. The Sun has inspired us since ancient times. It’s central to mythology and religion in (2) __________ around the world. It keeps our planet warm enough for living things to grow. It gives us light so we can see. It is by far the most important (3) ______ of energy for life on Earth. It is about a hundred times as wide (4)______ the Earth. If there were no sun, many things wouldn’t occur like photosynthesis or the presence of oxygen, which would have caused no (5) ________ of life.",
+   "options": {
+    "A": "typical",
+    "B": "huge",
+    "C": "the",
+    "D": "a"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 97,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 2.\nComprehension (continued):\nThe Sun is the star at the center of (1) __________ Solar System. It is a nearly perfect ball of hot plasma. The Sun has inspired us since ancient times. It’s central to mythology and religion in (2) __________ around the world. It keeps our planet warm enough for living things to grow. It gives us light so we can see. It is by far the most important (3) ______ of energy for life on Earth. It is about a hundred times as wide (4)______ the Earth. If there were no sun, many things wouldn’t occur like photosynthesis or the presence of oxygen, which would have caused no (5) ________ of life.",
+   "options": {
+    "A": "cultures",
+    "B": "processes",
+    "C": "scenes",
+    "D": "types"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96 (reproduced here as in the source, where the passage is repeated for each blank)."
+  },
+  {
+   "question_number": 98,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 3.\nComprehension (continued):\nThe Sun is the star at the center of (1) __________ Solar System. It is a nearly perfect ball of hot plasma. The Sun has inspired us since ancient times. It’s central to mythology and religion in (2) __________ around the world. It keeps our planet warm enough for living things to grow. It gives us light so we can see. It is by far the most important (3) ______ of energy for life on Earth. It is about a hundred times as wide (4)______ the Earth. If there were no sun, many things wouldn’t occur like photosynthesis or the presence of oxygen, which would have caused no (5) ________ of life.",
+   "options": {
+    "A": "gesture",
+    "B": "source",
+    "C": "control",
+    "D": "symbol"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  },
+  {
+   "question_number": 99,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 4.\nComprehension (continued):\nThe Sun is the star at the center of (1) __________ Solar System. It is a nearly perfect ball of hot plasma. The Sun has inspired us since ancient times. It’s central to mythology and religion in (2) __________ around the world. It keeps our planet warm enough for living things to grow. It gives us light so we can see. It is by far the most important (3) ______ of energy for life on Earth. It is about a hundred times as wide (4)______ the Earth. If there were no sun, many things wouldn’t occur like photosynthesis or the presence of oxygen, which would have caused no (5) ________ of life.",
+   "options": {
+    "A": "about",
+    "B": "as",
+    "C": "like",
+    "D": "than"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  },
+  {
+   "question_number": 100,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 5.\nComprehension (continued):\nThe Sun is the star at the center of (1) __________ Solar System. It is a nearly perfect ball of hot plasma. The Sun has inspired us since ancient times. It’s central to mythology and religion in (2) __________ around the world. It keeps our planet warm enough for living things to grow. It gives us light so we can see. It is by far the most important (3) ______ of energy for life on Earth. It is about a hundred times as wide (4)______ the Earth. If there were no sun, many things wouldn’t occur like photosynthesis or the presence of oxygen, which would have caused no (5) ________ of life.",
+   "options": {
+    "A": "skill",
+    "B": "end",
+    "C": "enhancement",
+    "D": "existence"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  }
+ ]
+}

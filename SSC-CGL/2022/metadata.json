@@ -1,0 +1,184 @@
+{
+  "conducted": true,
+  "notes": "Calendar year 2022 contains TWO CGL Tier I (CBE) examinations: (a) SSC CGL 2021 (2021 cycle) conducted 11-Apr-2022 to 21-Apr-2022 - per-day shift schedule not established (null per day); (b) SSC CGL 2022 (2022 cycle; result 09-Feb-2023; Tier II 02-07 Mar 2023) conducted 01-Dec-2022 to 13-Dec-2022: fully resolved per Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) + Cracku index - 01, 02, 03, 05, 06, 07, 08, 09, 12 and 13-Dec with Shifts 1-4 (40 documented shifts); 04-Dec and 11-Dec were Sundays (absent from both tables). No verified question-paper files collected for this year.",
+  "schedule": [
+    {
+      "date": "2022-04-11",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-12",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-13",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-14",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-15",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-16",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-17",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-18",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-19",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-20",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-04-21",
+      "expected_shifts": null,
+      "evidence": "CGL 2021 (Apr 2022 window 11-21 Apr); not listed in any shift-wise table found in this environment - per-day shift schedule not established"
+    },
+    {
+      "date": "2022-12-01",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-02",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-03",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-04",
+      "expected_shifts": null,
+      "evidence": "absent from both the Oliveboard and Cracku Dec-2022 tables; 04-Dec and 11-Dec-2022 were Sundays (weekend, not an exam day per both tables)"
+    },
+    {
+      "date": "2022-12-05",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-06",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-07",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-08",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-09",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-10",
+      "expected_shifts": null,
+      "evidence": "absent from both the Oliveboard and Cracku Dec-2022 tables; 04-Dec and 11-Dec-2022 were Sundays (weekend, not an exam day per both tables)"
+    },
+    {
+      "date": "2022-12-11",
+      "expected_shifts": null,
+      "evidence": "absent from both the Oliveboard and Cracku Dec-2022 tables; 04-Dec and 11-Dec-2022 were Sundays (weekend, not an exam day per both tables)"
+    },
+    {
+      "date": "2022-12-12",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    },
+    {
+      "date": "2022-12-13",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2022 Tier 1 ... December 2022'): Shifts 1-4 listed; corroborated by Cracku solved-paper index for 07/08/09/12/13-Dec"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CGL 2021 Tier I window 11-21 Apr 2022; CGL 2022 Tier I window 01-13 Dec 2022 (SSC notifications; per coaching-portal coverage)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CGL",
+  "year": 2022,
+  "tier": "Tier I",
+  "papers": []
+}

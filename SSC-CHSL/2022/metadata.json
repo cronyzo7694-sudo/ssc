@@ -1,0 +1,104 @@
+{
+  "conducted": true,
+  "notes": "Calendar-year-2022 exam = SSC CHSL 2021-22 cycle Tier I (CBE), conducted between 24-May-2022 and 10-Jun-2022 (result declared 04-Aug-2022). Per-day exam-day status and shift counts within the 18-day window are NOT established from sources accessible in this environment (expected_shifts: null per day). No verified Tier I question-paper files have been collected for this year.",
+  "schedule": [
+    {
+      "date": "2022-05-24",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-25",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-26",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-27",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-28",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-29",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-30",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-05-31",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-01",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-02",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-03",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-04",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-05",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-06",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-07",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-08",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-09",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    },
+    {
+      "date": "2022-06-10",
+      "expected_shifts": null,
+      "evidence": "inside documented window 24-May-2022 to 10-Jun-2022; per-day shift schedule not established"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CHSL 2021-22 Tier I window 24-May-2022 to 10-Jun-2022; result 04-Aug-2022 (coaching-portal coverage of the SSC CHSL 2021-22 notification)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CHSL",
+  "year": 2022,
+  "tier": "Tier I",
+  "papers": []
+}

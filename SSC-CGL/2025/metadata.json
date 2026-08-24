@@ -1,0 +1,175 @@
+{
+  "conducted": true,
+  "notes": "SSC CGL 2025 Tier I (CBE) was conducted between 12-Sep-2025 and 26-Sep-2025 (15 consecutive exam days, Shifts 1-3 each = 45 shifts) with an additional exam day on 14-Oct-2025 (Shift 1) - 46 documented shifts total, per Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) (12-Sep corroborated by direct CDN response-sheet PDFs with header times 09:00/12:30/16:00; verified files in this repository). No 4th shift is listed for any date in the Oliveboard table (some sources describe a 4th shift as 'optional'; none documented). Verified files in this repository: 12-Sep Shifts 1-3 (3 of 46).",
+  "schedule": [
+    {
+      "date": "2025-09-12",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "3 CBE challenge-module response sheets on Oliveboard CDN (download.oliveboard.in/pdf/ssc-cgl-12th-sep-shift-{1,2,3}.pdf) with header times 09:00 AM / 12:30 PM / 04:00 PM, Test Date 12 Sep 2025 (verified files in this repository); same 3 shifts listed in Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24)"
+    },
+    {
+      "date": "2025-09-13",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-14",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-15",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-16",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-17",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-18",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-19",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-20",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-21",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-22",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-23",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-24",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-25",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-09-26",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shifts 1-3 listed for this date (form-gated PDFs)"
+    },
+    {
+      "date": "2025-10-14",
+      "expected_shifts": [
+        "Shift-1"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): only Shift 1 listed for the additional 14-Oct-2025 exam day"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "SSC CGL 2025 Tier I window 12-26 Sep 2025 + 14-Oct-2025 (SSC notification; per Oliveboard Tier I PYP page)",
+    "answer_key": "CGL 2025 Tier I tentative answer key ~Oct-2025 (SSC notice coverage); per-candidate download login-gated; no public consolidated key PDF found in this environment"
+  },
+  "exam": "SSC CGL",
+  "year": 2025,
+  "tier": "Tier I",
+  "papers": [
+    {
+      "file": "2025-09-12_Shift-1.json",
+      "date": "2025-09-12",
+      "shift": "Shift-1",
+      "status": "verified"
+    },
+    {
+      "file": "2025-09-12_Shift-2.json",
+      "date": "2025-09-12",
+      "shift": "Shift-2",
+      "status": "verified"
+    },
+    {
+      "file": "2025-09-12_Shift-3.json",
+      "date": "2025-09-12",
+      "shift": "Shift-3",
+      "status": "verified"
+    }
+  ]
+}

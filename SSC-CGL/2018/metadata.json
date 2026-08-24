@@ -1,0 +1,13 @@
+{
+  "conducted": false,
+  "notes": "No SSC CGL Tier I examination was conducted in calendar year 2018. The CGL 2018 cycle (CGL 2018 notification) held its Tier I in June 2019; it is recorded under year 2019 in this repository.",
+  "schedule": [],
+  "official_references": {
+    "exam_dates_notice": "CGL 2018 cycle Tier I postponed to June 2019 (SSC notification; see SSC-CGL/2019/metadata.json)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CGL",
+  "year": 2018,
+  "tier": "Tier I",
+  "papers": []
+}

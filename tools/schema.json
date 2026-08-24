@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SSC exam shift paper file",
+  "description": "One file per exam shift. See README.md for field semantics.",
+  "type": "object",
+  "required": [
+    "exam",
+    "year",
+    "tier",
+    "date",
+    "shift",
+    "source",
+    "source_type",
+    "verification_status",
+    "questions"
+  ],
+  "properties": {
+    "exam": { "type": "string", "enum": ["SSC CGL", "SSC CHSL"] },
+    "year": { "type": "integer", "minimum": 2016, "maximum": 2025 },
+    "tier": { "type": "string", "description": "e.g. 'Tier I'" },
+    "date": { "type": "string", "pattern": "^20[12][0-9]-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$" },
+    "shift": { "type": "string", "pattern": "^Shift-[0-9]+$" },
+    "source": { "type": "string", "minLength": 1, "description": "Primary source (name + URL)." },
+    "corroborating_sources": {
+      "type": "array",
+      "description": "Independent secondary sources used to verify this paper. Required (>=1) when verification_status=verified.",
+      "items": { "type": "object" }
+    },
+    "source_type": {
+      "type": "string",
+      "enum": ["OFFICIAL", "MEMORY-BASED", "RECONSTRUCTED", "OFFICIAL-ANSWER-KEY-ONLY"],
+      "description": "OFFICIAL = published by SSC; MEMORY-BASED = candidate/coaching reconstruction; RECONSTRUCTED = compiled/merged by third party; OFFICIAL-ANSWER-KEY-ONLY = answers taken directly from an official SSC answer key."
+    },
+    "verification_status": { "type": "string", "enum": ["verified", "unverified"] },
+    "notes": { "type": "string" },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "question_number",
+          "subject",
+          "question",
+          "options",
+          "correct_answer",
+          "answer_source"
+        ],
+        "properties": {
+          "question_number": { "type": "integer", "minimum": 1 },
+          "subject": { "type": "string" },
+          "question": { "type": "string", "minLength": 1 },
+          "options": {
+            "type": "object",
+            "minProperties": 2,
+            "additionalProperties": { "type": "string" },
+            "propertyNames": { "pattern": "^[A-E]$" }
+          },
+          "correct_answer": { "type": ["string", "null"], "pattern": "^[A-E]$", "description": "null when no reliable answer could be established" },
+          "answer_source": { "type": ["string", "null"], "description": "Where the answer came from. Must be present whenever correct_answer is set." },
+          "answer_note": { "type": "string", "description": "Optional: disagreements between sources, official-key mismatches, etc." }
+        }
+      }
+    }
+  }
+}

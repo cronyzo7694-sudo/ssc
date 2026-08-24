@@ -1,0 +1,104 @@
+{
+  "conducted": true,
+  "notes": "Calendar-year-2020 exam = SSC CHSL 2019-20 cycle Tier I (CBE), conducted in two parts: 17-19 Mar 2020 (partial, before the pandemic lockdown) and 12-26 Oct 2020 (9 exam days x 3 shifts per coaching-portal coverage). Exact per-day exam-day status and shift counts are NOT established (expected_shifts: null per day). No verified Tier I question-paper files have been collected for this year.",
+  "schedule": [
+    {
+      "date": "2020-03-17",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 first part (17-19 Mar 2020, partial before lockdown); per-day shift schedule not established"
+    },
+    {
+      "date": "2020-03-18",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 first part (17-19 Mar 2020, partial before lockdown); per-day shift schedule not established"
+    },
+    {
+      "date": "2020-03-19",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 first part (17-19 Mar 2020, partial before lockdown); per-day shift schedule not established"
+    },
+    {
+      "date": "2020-10-12",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-13",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-14",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-15",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-16",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-17",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-18",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-19",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-20",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-21",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-22",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-23",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-24",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-25",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    },
+    {
+      "date": "2020-10-26",
+      "expected_shifts": null,
+      "evidence": "CHSL 2019-20 second part (window 12-26 Oct 2020; 9 exam days x 3 shifts per sources); per-day allocation not established"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CHSL 2019-20 Tier I: 17-19 Mar 2020 + 12-26 Oct 2020 (9 exam days x 3 shifts) per coaching-portal coverage of the SSC CHSL 2019-20 notifications",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CHSL",
+  "year": 2020,
+  "tier": "Tier I",
+  "papers": []
+}

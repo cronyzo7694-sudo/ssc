@@ -1,0 +1,1525 @@
+{
+ "exam": "SSC CGL",
+ "year": 2025,
+ "tier": "Tier I",
+ "date": "2025-09-12",
+ "shift": "Shift-2",
+ "source": "Oliveboard CBE 'challenge module' response-sheet export of the actual SSC CGL 2025 Tier I screen - header 'Exam Level: SSC CGL Tier 1 | Test Date: 12 Sep 2025 | Test Time and Shift: 12:30 PM (Shift-2)' with per-question status legend 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered' and candidate undertaking: https://download.oliveboard.in/pdf/ssc-cgl-12th-sep-shift-2.pdf (accessed 2026-08-24; linked from Oliveboard's SSC CGL Tier 1 PYP page https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/). IMPORTANT export caveat (verbatim from the PDF): 'in the challenge module the sequence of the questions and the options may be different from how it appeared during the examination ... the answer key selected by the candidates during the examination will exactly be reflected in the challenge module.' - i.e. question/option ORDER in this export may not match the live CBE screen order, though the candidate's selections are preserved. One question (the implicit-assumptions statement, recorded here as question_number 8) appears unnumbered in the export between Q.No 7 and Q.No 9.",
+ "corroborating_sources": [
+  {
+   "name": "Oliveboard CGL 2025 response sheets for the same date, Shifts 1 and 3 (same CDN, same export class)",
+   "url": "https://download.oliveboard.in/pdf/ssc-cgl-12th-sep-shift-1.pdf",
+   "note": "Same export class exists for Shift-1 (09:00 AM) and Shift-3 of the same date (12 Sep 2025); the Shift-1 file is in this repository (SSC-CGL/2025/2025-09-12_Shift-1.json). Corroborates that multiple shifts were held on 12-Sep-2025 at the stated times. NOT used as a question-level source for this file."
+  },
+  {
+   "name": "Adda247 - SSC CGL Previous Year Question Paper page",
+   "url": "https://www.adda247.com/jobs/ssc-cgl-previous-year-question-paper/",
+   "note": "Lists CGL 2025 'Similar Paper' (RECONSTRUCTED) PDFs for 12 Sep 2025 - corroborates that CGL 2025 Tier I was conducted on 12 Sep 2025. NOT used as a question-level source for this file."
+  }
+ ],
+ "source_type": "MEMORY-BASED",
+ "verification_status": "verified",
+ "notes": "PARTIAL-CONTENT FILE - READ FIRST: this is a genuine SSC CBE response-sheet export ('challenge module' save) for the exact date+shift (header Test Date 12 Sep 2025, 12:30 PM Shift-2), but the source PDF is longer than the 30-page parse limit available in this environment: only PART-A (General Intelligence and Reasoning, Q1-25), PART-B (General Awareness, Q26-50) and the first three PART-C (Quantitative Aptitude) questions (Q51-53, Q53 stem only) are in the parsed layer; Q54-75 (Quant) and Q76-100 (English) are ABSENT from the parsed layer and are marked [NOT RECOVERABLE] - they have NOT been invented, completed or paraphrased. Within the recovered range: Q12, Q13, Q19, Q27, Q29, Q30, Q31, Q32, Q44, Q48 have empty question bodies in the parsed layer; Q28, Q47, Q53 have missing options; Q22 has only 3 options; Q8 (unnumbered in the export) is missing its assumptions list. SECTIONS/NUMBERING: this export numbers questions globally 1-100 in the order PART-A GI&R (1-25), PART-B General Awareness (26-50), PART-C Quantitative Aptitude (51-75), PART-D English (76-100) - the section labels and Q.No are from the export itself. ORDER CAVEAT (quoted above): the challenge-module export may reorder questions and options relative to the live exam screen; the candidate's answer selections are preserved. This file therefore does NOT guarantee the live screen's question/option order. BILINGUAL SOURCE: every question in the source is bilingual (English + Hindi); only the English layer was transcribed here (the Hindi layers are largely garbled in the parsed text and are noted verbatim only where they contain otherwise-recoverable content, e.g. the Hindi fragment at Q49). SSC QUESTION IDs: not present in this export class; question_id is null throughout. CANDIDATE RESPONSES: only the 'Not Answered' status was recoverable as text (Q8, Q19, Q20, Q27, Q28, Q30, Q32, Q33, Q43, Q44); answered-question status markers ('Correct Option selected'/'Wrong Option selected') are rendered as graphics and were NOT recovered, so no candidate choice is recorded. ANSWERS: the export's legend implies per-question correct/incorrect marking, but the actual correct-option identity is not present in the recovered text layer for any question, and the official CGL 2025 tentative answer key (SSC, October 2025) is downloadable only by logged-in candidates; no machine-accessible official key was found in this environment - so every correct_answer here is null and answer_source null. Do not infer answers from the export legend or from AI reasoning.",
+ "questions": [
+  {
+   "question_number": 1,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "In the following question, select the related word from the given alternatives\nLiberty : Autonomy :: Equality : ?",
+   "options": {
+    "A": "Legitimacy",
+    "B": "Neutrality",
+    "C": "Fairness",
+    "D": "Diversity"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 2,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Select the letter-cluster from among the given options that can replace the question mark(?)in the following series.BGL,GLQ,LQV,QVA,?",
+   "options": {
+    "A": "ZAS",
+    "B": "OKS",
+    "C": "VAF",
+    "D": "AVG"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 3,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following series.\nDAG, FCI, ? , JGM, LIO",
+   "options": {
+    "A": "GDJ",
+    "B": "IFL",
+    "C": "HKE",
+    "D": "HEK"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 4,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Which of the following alternatives will replace the question mark?\nAtom, Molecule, Cell, ?",
+   "options": {
+    "A": "Tissue",
+    "B": "Proton",
+    "C": "System",
+    "D": "Gene"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 5,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Complete the series: ____, 150, 183, 219, 258",
+   "options": {
+    "A": "120",
+    "B": "148",
+    "C": "361",
+    "D": "247"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 6,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "What will come at the place of question mark?2,12,30,56,90,?",
+   "options": {
+    "A": "132",
+    "B": "140",
+    "C": "142",
+    "D": "150"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 7,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Read the following statement carefully and identify the conclusion that follows.\nStatement:Most farmers in the region depend on monsoon rains for irrigation.Conclusions:I. The region does not have proper irrigation infrastructure.II.A weak monsoon may reduce agricultural output.",
+   "options": {
+    "A": "Only Conclusion I follows",
+    "B": "Only Conclusion II follows",
+    "C": "Both I and II follow",
+    "D": "Neither I nor II follows"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 8,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "[appears unnumbered in the export, positioned between Q.No 7 and Q.No 9; this is an 'implicit assumptions' question - the assumptions I/II/III list itself is not in the parsed layer]\nStatement: The discovery of exoplanets in habitable zones around distant stars has provided exciting prospects for the search for extraterrestrial life, yet the vast distances and technological limitations pose significant obstacles to direct exploration.",
+   "options": {
+    "A": "Only I and II are implicit",
+    "B": "Only II and III are implicit",
+    "C": "Only I is implicit",
+    "D": "All assumptions are implicit"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 9,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "How many meaningful four-letter English words can be formed using the first, second, third, and sixth letters of the word \"PROVIDE\" (when counted from left to right), using each letter only once in each word?",
+   "options": {
+    "A": "One",
+    "B": "Three",
+    "C": "Two",
+    "D": "Five"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 10,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Which of the following addresses are identical to each other:\n1. Rajeev Chauhan 3/5, Lotus Enclave, Kanpur,208012\n2. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur ,208012\n3. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur ,208012\n4. Rajeev Chauhan 3-5, Lotus Enclave, Kanpur ,208002",
+   "options": {
+    "A": "1 and 2",
+    "B": "2 and 3",
+    "C": "2 and 4",
+    "D": "3 and 4"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 11,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Each of the letters in the word STAMINA is arranged in alphabetical order. How many letters are there in the English alphabetical series between the letter that is first from the left and the one that is fourth from the right in the new letter-cluster formed?",
+   "options": {
+    "A": "11",
+    "B": "12",
+    "C": "13",
+    "D": "14"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 12,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 13,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 14,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "In each of the following questions, the second word is formed by rearranging the letters of the first word according to a specific pattern. Identify that pattern and apply the same to the third word to find the correct answer from the given alternatives. NUMERAL : UEALRMN :: ALGEBRA: ?",
+   "options": {
+    "A": "LRBAGEA",
+    "B": "BARLAGE",
+    "C": "LERAGBA",
+    "D": "LERABGA"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 15,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Find the odd one out from the given alternatives:",
+   "options": {
+    "A": "TDS",
+    "B": "GST",
+    "C": "VAT",
+    "D": "DNA"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 16,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "If A is the son of B, and B is the brother of C, how is C related to A?",
+   "options": {
+    "A": "Father",
+    "B": "Uncle",
+    "C": "Brother",
+    "D": "Cousin"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 17,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "One number is not like the others:1331,2197,3375,4096",
+   "options": {
+    "A": "1331",
+    "B": "3375",
+    "C": "4096",
+    "D": "2197"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 18,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Find the number that breaks the pattern:2,5,10,17,28,40,58",
+   "options": {
+    "A": "10",
+    "B": "17",
+    "C": "40",
+    "D": "28"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 19,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 20,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "If 7 $ 3 = 58 and 6 $ 2 = 40, what is 5 $ 1?",
+   "options": {
+    "A": "26",
+    "B": "24",
+    "C": "28",
+    "D": "22"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 21,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Pointing to a girl,a woman says,'She is the daughter of my mother's only daughter.'How is the girl related to the woman?",
+   "options": {
+    "A": "Daughter",
+    "B": "Daughter-in-law",
+    "C": "Cousin",
+    "D": "Sister"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 22,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "A woman says,“This man's son's sister is my daughter.”How is the woman related to the man?",
+   "options": {
+    "A": "Wife",
+    "B": "Sister",
+    "C": "Mother",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Only 3 options present in the parsed layer."
+  },
+  {
+   "question_number": 23,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "Two numbers are in ratio 7:9,and their sum is 128.Find the numbers.",
+   "options": {
+    "A": "49,79",
+    "B": "56,72",
+    "C": "62,66",
+    "D": "70,58"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 24,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "If 16+11=A and 1/9=B,and A % B=(A×B)-1,then what is A % B?",
+   "options": {
+    "A": "0",
+    "B": "-3",
+    "C": "2",
+    "D": "5"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 25,
+   "subject": "General Intelligence and Reasoning",
+   "question_id": null,
+   "question": "If the sum of 28 and 22 is multiplied by 8, what is the result?",
+   "options": {
+    "A": "384",
+    "B": "400",
+    "C": "415",
+    "D": "416"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 26,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Read the below statements marked as Assertion(A)和Reason(R).Mark the correct options:\nAssertion(A):Humayun's Tomb was the first major Mughal garden tomb and directly inspired the design of the Taj Mahal.\nReason(R):It introduced the charbagh garden layout and double-domed mausoleum style that became characteristic of later Mughal architecture.",
+   "options": {
+    "A": "Both A and R are true, and R is the correct explanation of A.",
+    "B": "Both A and R are true, but R is not the correct explanation of A.",
+    "C": "A is true, but R is false.",
+    "D": "A is false, but R is true"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Note: the source line contains the Chinese character '和' verbatim."
+  },
+  {
+   "question_number": 27,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 28,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which of the following correctly reflects the evolution of Indian classical music?\n[options not in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 29,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 30,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 31,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 32,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 33,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Fill in the blank:\nUnder the SLKIC vertical of Khelo India,___Kendriya Vidyalayas have been adopted in partnership with KVS.",
+   "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 34,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Consider the following statements about \"The Adventures of Kakababu, Volume 1\" by Sunil Gangopadhyaya:\n1) A pioneering Bengali adventure novel featuring detective Kakababu with mystery and cultural themes.\n2) A political satire on post-independence Indian governance.\n3) An autobiography of the author's freedom fighter experiences in Bengal.\nWhich of the above statements is/are correct?",
+   "options": {
+    "A": "Only statement 1 is correct",
+    "B": "Only statement 2 is correct",
+    "C": "Statements 2 and 3 are correct",
+    "D": "1, 2 and 3 are correct"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 35,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which Indian political leader addressed a special session in 2025 on“Environment,COP-30,and Global Health”?",
+   "options": {
+    "A": "Piyush Goyal",
+    "B": "Hardeep Puri",
+    "C": "Narendra Modi",
+    "D": "S. Jaishankar"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 36,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which of the following types of landslides involves backward rotation of the slipping material?",
+   "options": {
+    "A": "Rockslide",
+    "B": "Rock fall",
+    "C": "Slump",
+    "D": "Debris fall"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 37,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "What is meant by population density?",
+   "options": {
+    "A": "Population per household",
+    "B": "People per square kilometre",
+    "C": "People per region",
+    "D": "People per district"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 38,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Assertion(A)和Reason(R)are given below.Choose the correct option:\nAssertion(A):Population explosion occurs when death rates decline rapidly but birth rates remain high.\nReason(R):Societal reproductive behavior changes instantly with improvements in healthcare.",
+   "options": {
+    "A": "Both A and R are true,and R is the correct explanation of A",
+    "B": "Both A and R are true,but R is not the correct explanation",
+    "C": "A is true,but R is false",
+    "D": "A is false,but R is true"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Note: the source line contains the Chinese character '和' verbatim."
+  },
+  {
+   "question_number": 39,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which of the following best reflects the fundamental objective of applying generative design in aerospace systems engineering?",
+   "options": {
+    "A": "Facilitating seamless integration of multi-payload platforms in shared bus structures",
+    "B": "Optimizing mechanical configurations for minimum mass and maximum structural resilience",
+    "C": "Enhancing life-support redundancies to meet crew safety protocols in deep-space missions",
+    "D": "Designing adaptive thrust mechanisms to dynamically control orbital corrections"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 40,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "The function of lysosomes in cells is:",
+   "options": {
+    "A": "Protein synthesis",
+    "B": "Intracellular digestion",
+    "C": "Energy production",
+    "D": "Genetic information storage"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 41,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which of the following statements regarding Article 270 are correct?\n1)Article 270 governs the sharing of taxes between the Union and States, including proceeds from GST.\n2)After the 101st Constitutional Amendment, Article 270 includes provisions for distributing revenue from Union taxes and GST.\n3)The GST Compensation Cess is also shared between the Union and States under Article 270.",
+   "options": {
+    "A": "1 and 3 only",
+    "B": "1 Only",
+    "C": "1 & 2 only",
+    "D": "2 & 3 only"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 42,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "If Earth's radius were reduced by 1% while its mass remained unchanged, what would be the effect on the gravitational acceleration at its surface?",
+   "options": {
+    "A": "Increase by approximately 1%",
+    "B": "Decrease by approximately 2%",
+    "C": "Increase by approximately 2%",
+    "D": "Decrease by approximately 1%"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 43,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Under Bharatiya Nagarik Suraksha Sanhita(BNSS),what is the maximum period for which a person can be held in police custody in total, even if remanded periodically by a magistrate?",
+   "options": {
+    "A": "30 days",
+    "B": "60 days",
+    "C": "90 days",
+    "D": "15 days (for initial remand, extendable)"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 44,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Candidate status in CBE export: Not Answered (reference only, not authoritative)."
+  },
+  {
+   "question_number": 45,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Read the below statements marked as Assertion(A)和Reason(R).Mark the correct options:\nAssertion(A):UDAN Scheme improves regional air connectivity.\nReason(R):It provides financial viability gap funding to airlines.",
+   "options": {
+    "A": "Both A and R are true,and R is the correct explanation of A",
+    "B": "Both A and R are true, but R is not the correct explanation of A",
+    "C": "A is true, but R is false",
+    "D": "A is false, but R is true"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Note: the source line contains the Chinese character '和' verbatim."
+  },
+  {
+   "question_number": 46,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "According to the Global Cities Index 2025 by Oxford Economics, which two cities retained their top positions?",
+   "options": {
+    "A": "Tokyo and Beijing",
+    "B": "London and New York",
+    "C": "Paris and Rome",
+    "D": "Berlin and Moscow"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 47,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "Which of the following statements about light industries is correct?",
+   "options": {
+    "A": "They process heavy ores and minerals.",
+    "B": "They produce large-scale industrial machinery.",
+    "C": "They require bulky and heavy raw materials.",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Only 3 options present in the parsed layer."
+  },
+  {
+   "question_number": 48,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 49,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: question body absent from the parsed text layer; a Hindi fragment 'जलवायु परिबतन अनुकूलन' (climate-change adaptation) leaked into the parsed layer near this question but its attribution cannot be established]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 50,
+   "subject": "General Awareness",
+   "question_id": null,
+   "question": "What specific physical quantity ensures a satellite maintains its orbit without continuous propulsion?",
+   "options": {
+    "A": "Mass",
+    "B": "Gravitational pull",
+    "C": "Orbital velocity",
+    "D": "Atmospheric drag"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 51,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "Let x = √3+√5 and y = √8+√2. Which is greater?",
+   "options": {
+    "A": "x=y",
+    "B": "x>y",
+    "C": "x<y",
+    "D": "Cannot be determined"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 52,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "The number of red, blue,and green marbles in a bag is in the ratio3:4:6.If 20 red marbles,15 blue marbles,and an unknown number of green marbles are added to the bag,the ratio of red,blue,and green marbles becomes4:5:7.Determine the number of green marbles added.",
+   "options": {
+    "A": "3",
+    "B": "5",
+    "C": "7",
+    "D": "9"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered."
+  },
+  {
+   "question_number": 53,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "Evaluate the continued fraction: x=2+1/(3+1/(4+1/2))\n[options beyond the 30-page parse limit]",
+   "options": {
+    "A": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "B": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "C": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]",
+    "D": "[NOT RECOVERABLE: rendered as image or not present in the parsed text layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "No candidate-status line recovered from parsed text layer (answered-status markers are rendered as graphics and were not in the text layer; the export's legend is 'Correct Option selected / Wrong Option selected / Correct Option / Not Answered'). Candidate answer not recovered. Question stem recovered; options fall beyond the 30-page parse limit."
+  },
+  {
+   "question_number": 54,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 55,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 56,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 57,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 58,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 59,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 60,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 61,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 62,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 63,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 64,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 65,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 66,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 67,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 68,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 69,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 70,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 71,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 72,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 73,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 74,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 75,
+   "subject": "Quantitative Aptitude",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 76,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 77,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 78,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 79,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 80,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 81,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 82,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 83,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 84,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 85,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 86,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 87,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 88,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 89,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 90,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 91,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 92,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 93,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 94,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 95,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 96,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 97,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 98,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 99,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  },
+  {
+   "question_number": 100,
+   "subject": "English Language",
+   "question_id": null,
+   "question": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+   "options": {
+    "A": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "B": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "C": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]",
+    "D": "[NOT RECOVERABLE: beyond the 30-page text-layer parse limit of the source PDF - not present in the parsed layer]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Not present in the parsed layer (beyond the 30-page parse limit of the source PDF). No SSC question ID in this export class."
+  }
+ ]
+}
