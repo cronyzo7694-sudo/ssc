@@ -1,0 +1,1339 @@
+{
+ "exam": "SSC CGL",
+ "year": 2023,
+ "tier": "Tier I",
+ "date": "2023-07-17",
+ "shift": "Shift-1",
+ "source": "Cracku (Unacademy) - SSC CGL Tier I 2023 Question Paper Shift 1 (July 17th), memory-based solved question paper with all 100 questions: https://cracku.in/ssc-cgl-tier-1-17th-july-2023-shift-1-question-paper-solved (accessed 2026-08-24). Primary and only complete question-level source found for this specific date+shift (the Adda247/Collegedekho exam-screen export URL pattern used for 14-Jul shifts, ssc_cgl_2023_tier_1_17th-july-2023-shift-1.pdf, no longer exists on the CDN - HTTP NoSuchKey).",
+ "corroborating_sources": [
+  {
+   "name": "SSC Adda (Adda247 network) - SSC CGL Exam Analysis 2023, 17th July, Shift 1, Exam Overview (published 17 July 2023, the day of the exam)",
+   "url": "https://www.sscadda.com/ssc-cgl-exam-analysis-2023-17th-july-shift-1-exam-overview/",
+   "note": "Confirms this date+shift was conducted (exam window 14-27 July 2023) and the Tier I pattern: 4 sections x 25 = 100 questions, 200 marks, 60 minutes. Its section-wise topic list matches this paper question-for-question: Reasoning - 2 Venn diagrams (Q6, Q12), 2 mirror images (Q15, Q21), 3 coding questions (Q7, Q17, Q18), alphabetic/numerical analogy (Q22, Q16), odd-one-out (Q25); GA - first draft of the Constitution (Q34), Part IX B (Q45), starch test (Q30), Supreme Court officers' pensions (Q44); Quant - race (Q57, Q64), trigonometry (Q58, Q65, Q69), geometry (Q56, Q63, Q68, Q74); English - 2 spelling-error items (Q85, Q86), synonym of 'Consent' (Q93), antonym of 'Gullible' (Q82), 5-question cloze test (Q96-100). One minor mismatch: the analysis's memory-based list says 'Isotope of Iodine' while Q47 asks about a Group-17 element with isotopes 35/37 (chlorine) - the analysis list is itself memory-based."
+  },
+  {
+   "name": "Examzy - SSC CGL 18 July 2023 Exam Analysis All Shift (published 18 July 2023)",
+   "url": "https://examzy.in/ssc-cgl-18-july-2023/",
+   "note": "States 'Staff Selection Commission has successfully conducted shift 1 of the SSC CGL Exam on 17th July 2023' and gives Shift 1 timing 9:00 AM to 10:00 AM; corroborates date+shift existence and timing from an independent publisher."
+  }
+ ],
+ "source_type": "MEMORY-BASED",
+ "verification_status": "verified",
+ "notes": "AUTHENTICITY: SSC does not publish CGL Tier I question papers. No exam-screen capture (SSC CBE export) could be located for this specific shift; this file is based on the single complete independent faculty reconstruction (Cracku, accessed 2026-08-24) whose question set is independently corroborated at the topic level by the SSC Adda same-day analysis. Treat as a faithful memory-based record, NOT an official SSC document. SECTION ORDER: General Intelligence and Reasoning (Q1-25), General Awareness (Q26-50), Quantitative Aptitude (Q51-75), English Comprehension (Q76-100); global numbering follows that order. FIGURES: Q6, Q8, Q12, Q15, Q19, Q20, Q21, Q24 are non-verbal items, Q31 is a match-the-columns table and Q67, Q70 are graphs; the source renders them as images not recoverable in this environment, so stems are preserved as text and figures marked [figure - not recoverable]. MATHEMATICAL FORMULAE were typeset in LaTeX in the source and are transcribed here as plain text. KNOWN SOURCE ARTIFACTS are preserved verbatim and flagged per-question in answer_note (Q6 option A/B identical image; Q17 garbled symbol lines; Q29 statement-form question; Q43 option A 'Sangh'; Q59 option C capital 'Y'; Q63 garbled similarity symbol; Q71 option C '3o'; Q85 option B 'Petru!'; Q96 passage blank 5 labelled '(S)'). ANSWERS: The official SSC answer key (tentative key uploaded 01-Aug-2023 per notice Write_Up_Tentative_AnswerKey_T1_CGLE_2023_01082023) is only downloadable by logged-in candidates on ssc.gov.in/ssc.nic.in, and Cracku's faculty solutions on this page are login-gated; no accessible authoritative per-question answer source was available in this environment. Per project answer policy, correct_answer is null for all questions and nothing has been filled in by inference.",
+ "questions": [
+  {
+   "question_number": 1,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the fifth letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster and the fourth letter-cluster is related to the third letter-cluster.\nCIVILIAN : AGREFCSF :: DOCTRINE : BMYPLCFW :: EQUATION : ?",
+   "options": {
+    "A": "NUGFSDA",
+    "B": "BURDSTER",
+    "C": "VUGHLOPA",
+    "D": "COQWNCGF"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 2,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the correct combination of mathematical signs to sequentially replace the * signs and balance the given equation.\n76 * 34 * 23 * 12 * 6 * 21",
+   "options": {
+    "A": "+, −, +, ÷, =",
+    "B": "−, −, +, +, =",
+    "C": "×, −, +, ÷, =",
+    "D": "−, −, +, ÷, ="
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 3,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the fifth term in the same way as the second term is related to the first term and the fourth term is related to the third term.\n132 : 10 :: 42 : 5 :: 272 : ?",
+   "options": {
+    "A": "15",
+    "B": "16",
+    "C": "13",
+    "D": "14"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 4,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the following numbers will replace the question mark (?) in the given series?\n19, 26, ?, 46, 59, 74",
+   "options": {
+    "A": "33",
+    "B": "30",
+    "C": "35",
+    "D": "32"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 5,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that represents the letters that, when placed from left to right in the blanks below, will complete the letter series.\nA B C _ A _ C C A B _ C _ B _ C",
+   "options": {
+    "A": "A B B C C",
+    "B": "C A B B A",
+    "C": "C B C A C",
+    "D": "A C C B A"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 6,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the Venn diagram that best represents the relationship between the following classes.\nActors, Comedians, Politicians [figure - all four option Venn diagrams not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Source artifact: options A and B in the source reference the identical image URL (likely a source-side image glitch); both recorded as not recoverable."
+  },
+  {
+   "question_number": 7,
+   "subject": "General Intelligence and Reasoning",
+   "question": "In a certain code language, 'CURD' is written as '342184' and 'BREAD' is written as '2181024'. How will 'BUTTER' be written in that language?",
+   "options": {
+    "A": "421201018",
+    "B": "442201018",
+    "C": "24220201018",
+    "D": "2212020518"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 8,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option figure in which given figure is embedded. (Rotation is NOT allowed) [figure - given figure and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 9,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the set in which the numbers are related in the same way as are the numbers of the following set.\n(NOTE : Operations should be performed on the whole numbers, without breaking down the numbers into their constituent digits. E.g. 13 - Operations on 13 such as adding /subtracting /multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)\n(26, 14, 170)\n(31, 7, 18)",
+   "options": {
+    "A": "(11, 5, 17)",
+    "B": "(34, 10, 72)",
+    "C": "(21, 9, 60)",
+    "D": "(14, 6, 24)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 10,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three of the following four triads are alike in a certain way as they are formed by performing same mathematical operations among themselves and thus form a group.\nWhich triad does NOT belong to that group?",
+   "options": {
+    "A": "12 : 47 : 60",
+    "B": "4 : 16 : 20",
+    "C": "2 : 7 : 10",
+    "D": "5 : 19 : 25"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 11,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which two signs should be interchanged to make the given equation correct?\n912 − 456 × 28 + 390 ÷ 2 = 444",
+   "options": {
+    "A": "÷ and −",
+    "B": "÷ and +",
+    "C": "− and +",
+    "D": "+ and ×"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 12,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the Venn diagram that best illustrates the relationship between the following classes.\nMinisters, Farmers and Engineers [figure - all four option Venn diagrams not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 13,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that represents the correct order of the given words as they would appear in an English dictionary.\n1. Refinery\n2. Reflect\n3. Reference\n4. Refugee\n5. Refillable\n6. Reformist",
+   "options": {
+    "A": "3, 5, 1, 2, 6, 4",
+    "B": "5, 1, 3, 2, 4, 6",
+    "C": "5, 1, 3, 2, 6, 4",
+    "D": "3, 1, 5, 2, 6, 4"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 14,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Study the given pattern carefully and select the number that can replace the question mark (?) in it.\n(6, 4, 6)\n(18, 9, 13)\n(8, 6, ?)\n(NOTE: Operations should be performed on the whole numbers, without breaking down the numbers into its constituent digits. E.g. 13- Operations on 13 such as adding/subtracting/multiplying etc. to 13 can be performed. Breaking down 13 into 1 and 3 and then performing mathematical operations on 1 and 3 is not allowed)",
+   "options": {
+    "A": "8",
+    "B": "14",
+    "C": "4",
+    "D": "6"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 15,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the answer figures is the exact mirror image of the given problem figure when the mirror is held at the right side? Problem figure: [figure - problem figure and all four answer figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 16,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the fifth number in the same way as the second number is related to the first number and the fourth number is related to the third number.\n1 : 7 :: 3 : 215 :: 4 : ?",
+   "options": {
+    "A": "453",
+    "B": "342",
+    "C": "511",
+    "D": "363"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 17,
+   "subject": "General Intelligence and Reasoning",
+   "question": "'A +++ B' means 'A is brother of B'\n'A −-− B' means 'A is mother of B'\n'A × B' means 'A is husband of B'\n'A +++ B' means 'A is sister of B'\nIf C+B−E+A×F−D, then which of the following statements is NOT correct?",
+   "options": {
+    "A": "D is the daughter of B.",
+    "B": "C is the sister of the mother of A.",
+    "C": "F is the wife of the son of B.",
+    "D": "B is the mother of A."
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Source artifact: the four symbol-definition lines are garbled in the source ('A +++ B' appears for both 'brother' and 'sister'; '−-−' and '××' are duplicated-symbol renderings). The four intended operators are almost certainly +, −, ×, ÷ (brother / mother / husband / sister) and the expression is C + B − E + A × F − D. Preserved verbatim as printed in the source."
+  },
+  {
+   "question_number": 18,
+   "subject": "General Intelligence and Reasoning",
+   "question": "In a certain code language, \"DICTATOR\" is written as \"DROTATCI\" and \"GLIMPSE\" is written as \"GESPMIL\". How will \"CONDEMN\" be written in that language?",
+   "options": {
+    "A": "CNONMED",
+    "B": "NMEDNOC",
+    "C": "NCONDEM",
+    "D": "CNMEDNO"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 19,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the given figures when placed in the 5th position would continue the series that is established by the first four figures? [figure - series and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 20,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the figure that will replace the question mark (?) in the following figure series. [figure - series and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 21,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the correct mirror image from the following options, when the mirror is placed on the right side of the given figure. [figure - given figure and all four option figures not recoverable from text sources]",
+   "options": {
+    "A": "[figure - not recoverable]",
+    "B": "[figure - not recoverable]",
+    "C": "[figure - not recoverable]",
+    "D": "[figure - not recoverable]"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 22,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Select the option that is related to the third word in the same way as the second word is related to the first word. (The words must be considered as meaningful English words and must not be related to each other based on the number of letters/number of consonants/vowels in the word)\nDiet : Dietician :: High blood sugar : ?",
+   "options": {
+    "A": "Oncologist",
+    "B": "Urologist",
+    "C": "Dermatologist",
+    "D": "Diabetologist"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 23,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Which of the following letter-clusters can replace the question mark (?) in the given series to make it logically complete?\nDNU, ?, NXE, SCJ, XHO",
+   "options": {
+    "A": "GQW",
+    "B": "GPV",
+    "C": "HRY",
+    "D": "ISZ"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 24,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three different positions of the same dice are shown. Find the number on the face opposite the face showing '1'. [figure - three dice positions not recoverable from text sources]",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "6",
+    "D": "4"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 25,
+   "subject": "General Intelligence and Reasoning",
+   "question": "Three of the following four letter-clusters are alike in a certain way and one is different.\nPick the odd one out.\nAFKP\nGKPS\nSXCH\nJOTY",
+   "options": {
+    "A": "JOTY",
+    "B": "SXCH",
+    "C": "GKPS",
+    "D": "AFKP"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 26,
+   "subject": "General Awareness",
+   "question": "The Pradhan Mantri Rojgar Yojana was started during the ____________.",
+   "options": {
+    "A": "Ninth Five Year Plan",
+    "B": "Eighth Five Year Plan",
+    "C": "Seventh Five Year Plan",
+    "D": "Tenth Five Year Plan"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 27,
+   "subject": "General Awareness",
+   "question": "Banganga festival takes place annually at which of the following places in Maharashtra?",
+   "options": {
+    "A": "Pune",
+    "B": "Nashik",
+    "C": "Mumbai",
+    "D": "Nagpur"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 28,
+   "subject": "General Awareness",
+   "question": "Who was the first social reformer to view modern education as a vehicle for the spread of modern ideas in the country?",
+   "options": {
+    "A": "Raja Ram Mohan Roy",
+    "B": "DK Karve",
+    "C": "Savitribai Phule",
+    "D": "Swami Vivekananda"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 29,
+   "subject": "General Awareness",
+   "question": "The Mana Ooru - Mana Badi programme was formally launched by the government in March 2022 to introduce English medium in government schools.",
+   "options": {
+    "A": "Odisha",
+    "B": "West Bengal",
+    "C": "Andhra Pradesh",
+    "D": "Telangana"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Source presents the item as a statement with the interrogative implicit (which state?). Preserved verbatim from the source."
+  },
+  {
+   "question_number": 30,
+   "subject": "General Awareness",
+   "question": "Which of the following is used to chemically test starch?",
+   "options": {
+    "A": "Chlorine solution",
+    "B": "Iodine solution",
+    "C": "Sulphur solution",
+    "D": "Bromine solution"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 31,
+   "subject": "General Awareness",
+   "question": "Which of the following is the correct match of the column-A with column-B? [figure - match-the-columns table not recoverable from text sources]",
+   "options": {
+    "A": "i-c, ii-a, iii-b, iv-d",
+    "B": "i-c, ii-d, iii-b, iv-a",
+    "C": "i-c, ii-d, iii-a, iv-b",
+    "D": "i-d, ii-c, iii-b, iv-a"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "The column entries themselves are an image in the source and are not recoverable; only the option code-patterns are preserved."
+  },
+  {
+   "question_number": 32,
+   "subject": "General Awareness",
+   "question": "Who was the first Odissi dancer from Odisha to receive Padma Vibhushan?",
+   "options": {
+    "A": "Sonal Mansingh",
+    "B": "Sanjukta Panigrahi",
+    "C": "Kelucharan Mohapatra",
+    "D": "Madhvi Mudgal"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 33,
+   "subject": "General Awareness",
+   "question": "In which state is the Maski inscription located at present?",
+   "options": {
+    "A": "Tamil Nadu",
+    "B": "Andhra Pradesh",
+    "C": "Madhya Pradesh",
+    "D": "Karnataka"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 34,
+   "subject": "General Awareness",
+   "question": "When did the Drafting Committee publish the first draft of the Indian Constitution?",
+   "options": {
+    "A": "June 1948",
+    "B": "May 1948",
+    "C": "January 1948",
+    "D": "February 1948"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 35,
+   "subject": "General Awareness",
+   "question": "Identify the subsidiary of SAIL that is located along the Kolkata-Asansol railway line?",
+   "options": {
+    "A": "ESL Steel Limited (ESL)",
+    "B": "Jindal Steel and Power Ltd (JSPL)",
+    "C": "Indian Iron and Steel Company (IISCO)",
+    "D": "Tata Iron and Steel plant (TISCO)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 36,
+   "subject": "General Awareness",
+   "question": "Name the French jeweller who travelled to India at least six times during the Mughal period.",
+   "options": {
+    "A": "Antonio Monserrate",
+    "B": "Jean-Baptiste Tavernier",
+    "C": "Seydi Ali Reis",
+    "D": "Peter Mundy"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 37,
+   "subject": "General Awareness",
+   "question": "Which of the following states in India, during October to December, receive rainfall due to Northeast monsoon?",
+   "options": {
+    "A": "Tamil Nadu, Keral and Andhra Pradesh",
+    "B": "Punjab, Haryana, Madhya Pradesh",
+    "C": "Andhra Pradesh, Madhya Pradesh and Karnataka",
+    "D": "Uttar Pradesh, Bihar and West Bengal"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 38,
+   "subject": "General Awareness",
+   "question": "Machines, tools and implements, and buildings are examples of which type of goods?",
+   "options": {
+    "A": "Consumer goods",
+    "B": "Inferior goods",
+    "C": "Intermediate goods",
+    "D": "Capital goods"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 39,
+   "subject": "General Awareness",
+   "question": "Which of the following has the highest value of resistivity?",
+   "options": {
+    "A": "Silver",
+    "B": "Nichrome",
+    "C": "Chromium",
+    "D": "Iron"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 40,
+   "subject": "General Awareness",
+   "question": "Asad Ali Khan is best known for his mastery over which of the given musical instruments?",
+   "options": {
+    "A": "Surbahar",
+    "B": "Violin",
+    "C": "Tabla",
+    "D": "Rudra Veena"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 41,
+   "subject": "General Awareness",
+   "question": "The part of the Himalayas lying between Satluj and ___ rivers is known as Kumaon Himalayas.",
+   "options": {
+    "A": "Indus",
+    "B": "Kali",
+    "C": "Brahmaputra",
+    "D": "Teesta"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 42,
+   "subject": "General Awareness",
+   "question": "In December 2021, Aanchal Thakur was in news for winning a bronze medal at an international event. Which sport is she associated with?",
+   "options": {
+    "A": "Alpine Skiing",
+    "B": "Biathlon",
+    "C": "Billiards",
+    "D": "Figure Skating"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 43,
+   "subject": "General Awareness",
+   "question": "Which of the following organisations is credited with writing literary pieces for the abolition of Sati Pratha?",
+   "options": {
+    "A": "The Harijan Sevak Sangh",
+    "B": "The Brahmo Samaj",
+    "C": "The Satya Shodhak Samaj",
+    "D": "The Bahujan Samaj"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Option A reads 'Sangh' (sic) in the source; preserved verbatim."
+  },
+  {
+   "question_number": 44,
+   "subject": "General Awareness",
+   "question": "The pensions payable to or in respect of the officers and servants of the Supreme Court are charged upon ______________.",
+   "options": {
+    "A": "Consolidated Fund of India",
+    "B": "Reserve Bank of India",
+    "C": "Public Account of India",
+    "D": "Finance Commission of India"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 45,
+   "subject": "General Awareness",
+   "question": "On 20 July 2021, the Supreme Court struck down certain provisions of part IX B of the Constitution of India. Part IX B was related to:",
+   "options": {
+    "A": "Panchayats",
+    "B": "Municipalities",
+    "C": "Co-operative Societies",
+    "D": "Sub-ordinate Courts"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 46,
+   "subject": "General Awareness",
+   "question": "Which of the following Indian states was the host of the 36th national games?",
+   "options": {
+    "A": "Punjab",
+    "B": "Maharashtra",
+    "C": "Gujarat",
+    "D": "Haryana"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 47,
+   "subject": "General Awareness",
+   "question": "Which element of Group 17 has two isotopes of masses 35 and 37 amu with average abundance of 75.77% and 24.23%, respectively?",
+   "options": {
+    "A": "Chlorine",
+    "B": "Iodine",
+    "C": "Fluorine",
+    "D": "Astatine"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 48,
+   "subject": "General Awareness",
+   "question": "'Dalkhai' is a folk dance of which of the following states of India?",
+   "options": {
+    "A": "Punjab",
+    "B": "Kerala",
+    "C": "Odisha",
+    "D": "Karnataka"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 49,
+   "subject": "General Awareness",
+   "question": "Which of the following countries never hosted the Paralympic games ?",
+   "options": {
+    "A": "Israel",
+    "B": "Japan",
+    "C": "South Korea",
+    "D": "India"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 50,
+   "subject": "General Awareness",
+   "question": "The 'Right to Work' plan, under the National Rural Employment Guarantee Act, 2005, was implemented in how many districts in the first phase?",
+   "options": {
+    "A": "150",
+    "B": "200",
+    "C": "100",
+    "D": "120"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 51,
+   "subject": "Quantitative Aptitude",
+   "question": "Simplify\n2.5 × [144 + 198 × {121 × 81 + (11 × 9)}]",
+   "options": {
+    "A": "180",
+    "B": "175",
+    "C": "185",
+    "D": "190"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 52,
+   "subject": "Quantitative Aptitude",
+   "question": "There are 3 members in a family. The average age of the father and mother is 40 years.\nThe average age of the father, mother and daughter is 30 years. Find the age (in years) of the daughter.",
+   "options": {
+    "A": "6",
+    "B": "12",
+    "C": "10",
+    "D": "8"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 53,
+   "subject": "Quantitative Aptitude",
+   "question": "A shopkeeper sells an item at a profit of 15% and uses a weight which is 20% less. Find his actual profit percentage.",
+   "options": {
+    "A": "42.5%",
+    "B": "50%",
+    "C": "40%",
+    "D": "43.75%"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 54,
+   "subject": "Quantitative Aptitude",
+   "question": "Find the smallest number that can be subtracted from 148109326 so that it becomes divisible by 8.",
+   "options": {
+    "A": "4",
+    "B": "8",
+    "C": "6",
+    "D": "10"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 55,
+   "subject": "Quantitative Aptitude",
+   "question": "Simplify the following expression.\n(3x+5)² + (3x−5)²",
+   "options": {
+    "A": "500x",
+    "B": "450x",
+    "C": "9x² + 50",
+    "D": "2(9x² + 25)"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 56,
+   "subject": "Quantitative Aptitude",
+   "question": "The volume of a cone with height equal to radius, and slant height 5 cm is :",
+   "options": {
+    "A": "125π/(12√3) cm³",
+    "B": "125π/(6√3) cm³",
+    "C": "125π/(12√2) cm³",
+    "D": "125π/(6√2) cm³"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 57,
+   "subject": "Quantitative Aptitude",
+   "question": "A policeman noticed a thief from 300 m. The thief started running and the policeman was chasing him. The thief and the policeman ran at the speeds of 8 km/h and 9 km/h, respectively. What was the distance between them after 3 minutes?",
+   "options": {
+    "A": "225 m",
+    "B": "250 m",
+    "C": "300 m",
+    "D": "200 m"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 58,
+   "subject": "Quantitative Aptitude",
+   "question": "If sin t + cos t = 4/5, then find sin t. cos t.",
+   "options": {
+    "A": "9/50",
+    "B": "−9/50",
+    "C": "9/25",
+    "D": "−9/25"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 59,
+   "subject": "Quantitative Aptitude",
+   "question": "Simplify the given expression.\ny + 2x − [(y − (y − x + y) − (x + y) + y] − 2y.",
+   "options": {
+    "A": "-y",
+    "B": "-2x",
+    "C": "Y",
+    "D": "2x"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Option C is a capital 'Y' in the source (sic); preserved verbatim."
+  },
+  {
+   "question_number": 60,
+   "subject": "Quantitative Aptitude",
+   "question": "A, B and C, working alone, can complete a job in 16, 24 and 36 days, respectively. In how many days can they complete the job if they work together?",
+   "options": {
+    "A": "7 11/19",
+    "B": "5 17/19",
+    "C": "4 13/19",
+    "D": "6 7/19"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 61,
+   "subject": "Quantitative Aptitude",
+   "question": "A person deposited ₹500 for 3 years, ₹650 for 5 years, and ₹1,250 for 7 years. He received a total simple interest of ₹1,620. The rate of interest per annum is:",
+   "options": {
+    "A": "12%",
+    "B": "13%",
+    "C": "10.8%",
+    "D": "11%"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 62,
+   "subject": "Quantitative Aptitude",
+   "question": "Rakshit, Ajay, and Satish are sanitation workers in a Municipal Corporation. Rakshit alone takes 20 hours to clean a drain while Ajay takes 12 hours when working alone to do the same. All three together take only 5 hours to clean the drain. In how many hours, can Satish complete the work alone?",
+   "options": {
+    "A": "12",
+    "B": "10",
+    "C": "15",
+    "D": "18"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 63,
+   "subject": "Quantitative Aptitude",
+   "question": "△ABC - ADEF and the perimeters of △ABC and △DEF are 40 cm and 12 cm, respectively. If DE = 6 cm, then AB is:",
+   "options": {
+    "A": "12.6 cm",
+    "B": "24 cm",
+    "C": "20 cm",
+    "D": "10 cm"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Source artifact: '△ABC - ADEF' is a garbled rendering of the similarity statement (intended: △ABC ~ △DEF, with corresponding vertex mapping implied). Preserved verbatim from the source."
+  },
+  {
+   "question_number": 64,
+   "subject": "Quantitative Aptitude",
+   "question": "On a circular path of 693 m, Sujata and Anjali start walking from the same point but in the opposite directions at the speed of 2.85 km/h and 1.5 m/sec, respectively. When they will meet for the first time?",
+   "options": {
+    "A": "After 6.75 minutes",
+    "B": "After 6.05 minutes",
+    "C": "After 5.04 minutes",
+    "D": "After 4.56 minutes"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 65,
+   "subject": "Quantitative Aptitude",
+   "question": "Select the INCORRECT formula from the following options.",
+   "options": {
+    "A": "sec²θ − tan²θ = 1",
+    "B": "sin²θ + cos²θ = 1",
+    "C": "cosec²θ − cot²θ = 1",
+    "D": "sec²θ + cos²θ = 1"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 66,
+   "subject": "Quantitative Aptitude",
+   "question": "15 men and 25 women can complete a piece of work in 9.6 days. If 16 women can complete the same work in 27 days, find the number of days in which 16 men can complete the same work.",
+   "options": {
+    "A": "22.50",
+    "B": "20.25",
+    "C": "19.20",
+    "D": "21.60"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 67,
+   "subject": "Quantitative Aptitude",
+   "question": "Industrial growth of different countries (in crores of ₹):\n[figure - graph not recoverable from text sources]\nHow many countries' industrial growth is more than the average industrial growth?",
+   "options": {
+    "A": "3",
+    "B": "4",
+    "C": "2",
+    "D": "1"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 68,
+   "subject": "Quantitative Aptitude",
+   "question": "If the area of a circle is 616 cm² and a chord XY = 10 cm, then find the perpendicular distance from the center of the circle to the chord XY.",
+   "options": {
+    "A": "√171 cm",
+    "B": "√161 cm",
+    "C": "√117 cm",
+    "D": "√181 cm"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 69,
+   "subject": "Quantitative Aptitude",
+   "question": "Find the value of sin²25 + sin²65",
+   "options": {
+    "A": "-1",
+    "B": "1/2",
+    "C": "0",
+    "D": "1"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 70,
+   "subject": "Quantitative Aptitude",
+   "question": "Select the correct statement with respect to the below bar graph.\n[figure - bar graph not recoverable from text sources]",
+   "options": {
+    "A": "Rice production by A in 2016 is less than the rice production by C in 2020.",
+    "B": "B produced more rice than A and C in 2018.",
+    "C": "The highest production of rice was in the year 2017.",
+    "D": "Rice production by B in 2017 is equal to the rice production by A in 2020."
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 71,
+   "subject": "Quantitative Aptitude",
+   "question": "If x% of 280 = 15% of 240 + 20% of 310, then the value of x is:",
+   "options": {
+    "A": "38",
+    "B": "2.35",
+    "C": "3o",
+    "D": "40"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Option C reads '3o' in the source (a '0' rendered as 'o'); preserved verbatim."
+  },
+  {
+   "question_number": 72,
+   "subject": "Quantitative Aptitude",
+   "question": "If (x² + 1/x²) = 7, and 0 < x < 1, find the value of x² − 1/x².",
+   "options": {
+    "A": "3√5",
+    "B": "4√3",
+    "C": "−4√3",
+    "D": "−3√5"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 73,
+   "subject": "Quantitative Aptitude",
+   "question": "A shopkeeper offers the following discount schemes for buyers on an article:\ni. Two successive discounts of 15% each\nii. A discount of 25% followed by a discount of 5%\niii. Two successive discounts of 20% and 10%\niv. A discount of 30%\nUnder which scheme will the selling price be maximum?",
+   "options": {
+    "A": "Scheme iv",
+    "B": "Scheme iii",
+    "C": "Scheme ii",
+    "D": "Scheme i"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 74,
+   "subject": "Quantitative Aptitude",
+   "question": "The area of two triangles is in the ratio 5 : 3 and their heights are in the ratio 5 : 7. Find the ratio of their bases.",
+   "options": {
+    "A": "3 : 5",
+    "B": "7 : 3",
+    "C": "7 : 5",
+    "D": "2 : 3"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 75,
+   "subject": "Quantitative Aptitude",
+   "question": "If the LCM and the HCF of two numbers are 12 and 2 respectively, then find the mean proportional of these numbers.",
+   "options": {
+    "A": "2√6",
+    "B": "√14",
+    "C": "2",
+    "D": "√6"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 76,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate one-word substitution of the given group of words.\nIrreverent behaviour toward anything held sacred or concerning God.",
+   "options": {
+    "A": "Agnosticism",
+    "B": "Pantheism",
+    "C": "Theism",
+    "D": "Blasphemy"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 77,
+   "subject": "English Comprehension",
+   "question": "Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\nA. Many countries throughout the world have achieved full digitalisation.\nB. Initially, the entire world transitioned to digitalisation.\nC. This type of internet is known as a metaverse.\nD. This existing kind of internet technology, which gives us access to various aspects, is about to change into a better and newer version.\nE. The Metaverse is an intriguing technology that has been described as the 'newer version of the internet'.",
+   "options": {
+    "A": "BCEDA",
+    "B": "DCEBA",
+    "C": "ABCDE",
+    "D": "EADCB"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 78,
+   "subject": "English Comprehension",
+   "question": "Select the option that can be used as a one-word substitute for the given group of words.\nHuge fire for celebration",
+   "options": {
+    "A": "Firepower",
+    "B": "Festivity",
+    "C": "Firefight",
+    "D": "Bonfire"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 79,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence. If there is no need to substitute it, select 'No substitution required'.\nIt is reported that she has win a prize money of ten lakhs at a reality show.",
+   "options": {
+    "A": "she will won",
+    "B": "she had win",
+    "C": "No substitution required",
+    "D": "she has won"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 80,
+   "subject": "English Comprehension",
+   "question": "Select the option that expresses the given sentence in passive voice.\nJoseph opened the Bible.",
+   "options": {
+    "A": "The Bible is being opened by Joseph.",
+    "B": "Joseph is opening the Bible.",
+    "C": "The Bible was opened by Joseph.",
+    "D": "Joseph opens the Bible."
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 81,
+   "subject": "English Comprehension",
+   "question": "The following sentence has been divided into parts. One of them may contain an error.\nSelect the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.\nHe promised them / that he would sure repay / the loan urgently.",
+   "options": {
+    "A": "No error",
+    "B": "He promised them",
+    "C": "the loan urgently",
+    "D": "that he would sure repay"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 82,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the given word.\nGullible",
+   "options": {
+    "A": "Credulous",
+    "B": "Pliant",
+    "C": "Cynical",
+    "D": "Simple"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 83,
+   "subject": "English Comprehension",
+   "question": "Select the option that expresses the given sentence in active voice.\nThe ball of yarn was being nudged by the kitten.",
+   "options": {
+    "A": "The kitten was nudged by the ball of yarn.",
+    "B": "The kitten is nudging the ball of yarn.",
+    "C": "The kitten was nudging the ball of yarn.",
+    "D": "The kitten has been nudging the ball of yarn."
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 84,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate homonym of the underlined word to fill in the blank.\nHe was complimented for his appearance. His shirt ________ his trousers perfectly.",
+   "options": {
+    "A": "competed",
+    "B": "complement",
+    "C": "commented",
+    "D": "complemented"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 85,
+   "subject": "English Comprehension",
+   "question": "Select the correctly spelt option that can substitute the underlined word in the given sentence. Patrrol is very costly these days.",
+   "options": {
+    "A": "Petrole",
+    "B": "Petru!",
+    "C": "Patrole",
+    "D": "Petrol"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Option B reads 'Petru!' in the source (a corrupted distractor); preserved verbatim."
+  },
+  {
+   "question_number": 86,
+   "subject": "English Comprehension",
+   "question": "Select the correctly spelt option that can substitute the underlined word in the given sentence.\nThe goods were taken on a public career.",
+   "options": {
+    "A": "carier",
+    "B": "carryer",
+    "C": "carrier",
+    "D": "courier"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 87,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate ANTONYM of the underlined word.\nIs there any portal to redeem these coupons that I have collected from the store?",
+   "options": {
+    "A": "forsake",
+    "B": "deplore",
+    "C": "forfeit",
+    "D": "embezzle"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 88,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate meaning of the underlined idiom/phrase in the given sentence.\nToday, the country's nationalists rule the roost and hand out the jobs.",
+   "options": {
+    "A": "To be in charge",
+    "B": "To be prejudiced",
+    "C": "To save a criminal",
+    "D": "To exploit someone"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 89,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate meaning of the given idiom.\nKeep someone at arm's length",
+   "options": {
+    "A": "Avoid becoming friendly with someone",
+    "B": "Avoid playing with someone",
+    "C": "Being someone's enemy",
+    "D": "Avoid becoming bitter with someone"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 90,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate synonym of the bracketed word given in the sentence.\nThe efforts will be ______ (vain) if we do not submit the project report on time.",
+   "options": {
+    "A": "useless",
+    "B": "careless",
+    "C": "delightful",
+    "D": "sensible"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 91,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in the blank.\nThe patient looked ____ and tired.",
+   "options": {
+    "A": "pail",
+    "B": "pale",
+    "C": "pall",
+    "D": "peel"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 92,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nNatwar was a fraudster who always tried to fooling others.",
+   "options": {
+    "A": "betraying",
+    "B": "deceive",
+    "C": "cheating",
+    "D": "revealing"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 93,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate synonym of the given word.\nConsent",
+   "options": {
+    "A": "Avert",
+    "B": "Assent",
+    "C": "Disturb",
+    "D": "Dissent"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 94,
+   "subject": "English Comprehension",
+   "question": "Select the option that can be used as a one-word substitute for the given group of words.\nA place to play games and bet on them",
+   "options": {
+    "A": "Motel",
+    "B": "Hotel",
+    "C": "Casino",
+    "D": "Pub"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 95,
+   "subject": "English Comprehension",
+   "question": "The following sentence has been divided into parts. One of them may contain an error.\nSelect the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.\nKaran call the restaurant / to ask if he could / reserve a table for tomorrow.",
+   "options": {
+    "A": "Karan call the restaurant",
+    "B": "reserve a table for tomorrow",
+    "C": "to ask if he could",
+    "D": "No error"
+   },
+   "correct_answer": null,
+   "answer_source": null
+  },
+  {
+   "question_number": 96,
+   "subject": "English Comprehension",
+   "question": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank. Select the most appropriate option to fill in blank no. 1.\nWe must understand that people can process very little information presented orally. So, it is (1) __________, particularly for a teacher, to realise that the students have sometimes listened to three or four teachers (2) __________ you. So, the teacher must have props like notes, handouts and slides that will make the learning material (3) __________ alive for the students and stay that way with them. A visual aid, a little movement or colour will get the students' attention. Another important thing to (4) __________ is that long, complicated sentences spoken fast are simply too difficult for students to understand. It is, therefore, (S) __________ to use short sentences that make sense to them instantly.",
+   "options": {
+    "A": "urgent",
+    "B": "immaterial",
+    "C": "unnecessary",
+    "D": "important"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "In the source, blank 5 is labelled '(S)' instead of '(5)' (source artifact, preserved)."
+  },
+  {
+   "question_number": 97,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 2.\nComprehension (continued):\nWe must understand that people can process very little information presented orally. So, it is (1) __________, particularly for a teacher, to realise that the students have sometimes listened to three or four teachers (2) __________ you. So, the teacher must have props like notes, handouts and slides that will make the learning material (3) __________ alive for the students and stay that way with them. A visual aid, a little movement or colour will get the students' attention. Another important thing to (4) __________ is that long, complicated sentences spoken fast are simply too difficult for students to understand. It is, therefore, (S) __________ to use short sentences that make sense to them instantly.",
+   "options": {
+    "A": "behind",
+    "B": "beside",
+    "C": "before",
+    "D": "after"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96 (reproduced here as in the source, where the passage is repeated for each blank)."
+  },
+  {
+   "question_number": 98,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 3.\nComprehension (continued):\nWe must understand that people can process very little information presented orally. So, it is (1) __________, particularly for a teacher, to realise that the students have sometimes listened to three or four teachers (2) __________ you. So, the teacher must have props like notes, handouts and slides that will make the learning material (3) __________ alive for the students and stay that way with them. A visual aid, a little movement or colour will get the students' attention. Another important thing to (4) __________ is that long, complicated sentences spoken fast are simply too difficult for students to understand. It is, therefore, (S) __________ to use short sentences that make sense to them instantly.",
+   "options": {
+    "A": "stay",
+    "B": "depart",
+    "C": "go",
+    "D": "come"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  },
+  {
+   "question_number": 99,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 4.\nComprehension (continued):\nWe must understand that people can process very little information presented orally. So, it is (1) __________, particularly for a teacher, to realise that the students have sometimes listened to three or four teachers (2) __________ you. So, the teacher must have props like notes, handouts and slides that will make the learning material (3) __________ alive for the students and stay that way with them. A visual aid, a little movement or colour will get the students' attention. Another important thing to (4) __________ is that long, complicated sentences spoken fast are simply too difficult for students to understand. It is, therefore, (S) __________ to use short sentences that make sense to them instantly.",
+   "options": {
+    "A": "guess",
+    "B": "detect",
+    "C": "realise",
+    "D": "decide"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  },
+  {
+   "question_number": 100,
+   "subject": "English Comprehension",
+   "question": "Select the most appropriate option to fill in blank no. 5.\nComprehension (continued):\nWe must understand that people can process very little information presented orally. So, it is (1) __________, particularly for a teacher, to realise that the students have sometimes listened to three or four teachers (2) __________ you. So, the teacher must have props like notes, handouts and slides that will make the learning material (3) __________ alive for the students and stay that way with them. A visual aid, a little movement or colour will get the students' attention. Another important thing to (4) __________ is that long, complicated sentences spoken fast are simply too difficult for students to understand. It is, therefore, (S) __________ to use short sentences that make sense to them instantly.",
+   "options": {
+    "A": "compulsory",
+    "B": "advisable",
+    "C": "mandatory",
+    "D": "prohibited"
+   },
+   "correct_answer": null,
+   "answer_source": null,
+   "answer_note": "Same cloze passage as Q96."
+  }
+ ]
+}

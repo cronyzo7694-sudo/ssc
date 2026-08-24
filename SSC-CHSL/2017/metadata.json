@@ -1,0 +1,179 @@
+{
+  "conducted": true,
+  "notes": "Calendar-year-2017 exam = SSC CHSL 2016-17 cycle Tier I (CBE), conducted between 07-Jan-2017 and 08-Feb-2017 per coaching-portal coverage. Per-day exam-day status and shift counts within the 33-day window are NOT established (expected_shifts: null per day). No verified Tier I question-paper files have been collected for this year.",
+  "schedule": [
+    {
+      "date": "2017-01-07",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-08",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-09",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-10",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-11",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-12",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-13",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-14",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-15",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-16",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-17",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-18",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-19",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-20",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-21",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-22",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-23",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-24",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-25",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-26",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-27",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-28",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-29",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-30",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-01-31",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-01",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-02",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-03",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-04",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-05",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-06",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-07",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    },
+    {
+      "date": "2017-02-08",
+      "expected_shifts": null,
+      "evidence": "inside documented window 07-Jan-2017 to 08-Feb-2017 (CHSL 2016-17 cycle); per-day shift schedule not established"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CHSL 2016-17 Tier I window 07-Jan-2017 to 08-Feb-2017 (coaching-portal coverage of the SSC CHSL 2016-17 notification)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CHSL",
+  "year": 2017,
+  "tier": "Tier I",
+  "papers": []
+}

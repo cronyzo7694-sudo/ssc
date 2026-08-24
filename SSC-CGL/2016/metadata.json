@@ -1,0 +1,104 @@
+{
+  "conducted": true,
+  "notes": "SSC CGL 2016 Tier I (CBE) was conducted from 27-Aug-2016 to 11-Sep-2016 across 43 CBE batches; the Srinagar centre examined on 25-Sep-2016; a re-examination for absentees was conducted on 02-Oct-2016. Sources accessible in this environment document the window and total batch count only; per-day exam-day status and per-day shift counts are NOT established (expected_shifts: null per day). No verified Tier I question-paper files have been collected for this year (window-level paper listings exist, e.g. sscportal.in, but per-shift PDFs were not verified in this environment).",
+  "schedule": [
+    {
+      "date": "2016-08-27",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-08-28",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-08-29",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-08-30",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-08-31",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-01",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-02",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-03",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-04",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-05",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-06",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-07",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-08",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-09",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-10",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-11",
+      "expected_shifts": null,
+      "evidence": "inside documented window 27-Aug-2016 to 11-Sep-2016 (43 CBE batches total); per-day shift schedule not established"
+    },
+    {
+      "date": "2016-09-25",
+      "expected_shifts": null,
+      "evidence": "Srinagar centre day, documented separately from the main window; shift schedule not established"
+    },
+    {
+      "date": "2016-10-02",
+      "expected_shifts": null,
+      "evidence": "re-examination day for absentees, documented; shift schedule not established"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "SSC CGL 2016 Tier I window 27-Aug-2016 to 11-Sep-2016 (43 batches), Srinagar 25-Sep-2016, re-exam 02-Oct-2016 - per coaching-portal coverage of the SSC CGL 2016 notification (original ssc.nic.in notice not machine-verifiable in this environment)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CGL",
+  "year": 2016,
+  "tier": "Tier I",
+  "papers": []
+}

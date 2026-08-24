@@ -1,0 +1,1525 @@
+{
+  "exam": "SSC CHSL",
+  "year": 2023,
+  "tier": "Tier I",
+  "date": "2023-08-02",
+  "shift": "Shift-4",
+  "source": "Adda247 CBE exam-screen export (candidate response-sheet PDF) of the actual SSC CHSL 2023 (2023-24) Tier I screen - header 'Combined Higher Secondary Level Examination 2023 Tier I', Exam Date 02/08/2023, bearing per-question SSC Question IDs and one candidate's Status/Chosen Option: https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/09181130/SSC-CHSL-2023-02-08-2023-Shift-IV-Paper.pdf (accessed 2026-08-24; linked from Adda247's SSC CHSL PYQ page https://www.adda247.com/jobs/ssc-chsl-previous-year-question-paper/ which lists this date with Shifts 1-4).",
+  "corroborating_sources": [
+    {
+      "name": "Adda247 CBE exam-screen exports, same date Shifts 1-3 (files SSC-CHSL/2023/2023-08-02_Shift-{1,2,3}.json in this repository)",
+      "url": "https://www.adda247.com/jobs/ssc-chsl-previous-year-question-paper/",
+      "note": "Genuine CBE exports of the same exam series and date (different shifts), each with its own distinct SSC Question ID set - corroborates that four shifts were actually held on 02-Aug-2023 and the CBE screen conventions used here. NOT a question-level source for this file."
+    },
+    {
+      "name": "Testbook - SSC CHSL 2023 Question Paper listing",
+      "url": "https://testbook.com/ssc-chsl/previous-year-papers",
+      "note": "Independently lists CHSL Tier-1 2023 papers for 02 Aug 2023 with the 100 Questions / 200 Marks / 60 Mins pattern, corroborating the existence of this date. (Testbook's actual paper PDFs are login-gated; not used as a question source.)"
+    }
+  ],
+  "source_type": "MEMORY-BASED",
+  "verification_status": "verified",
+  "notes": "PARTIAL-CONTENT FILE - READ FIRST: this is a genuine SSC CBE exam-screen export for the exact date+shift (header Exam Date 02/08/2023, SSC Question IDs + one candidate's responses throughout), but the source PDF's text layer is only partially recoverable in this environment: the English section (Q1-25) is recovered (some options image-only; Q3's Question-ID line fell on a page boundary and is missing; Q14 options contain the sic 'fail' wording); the Reasoning section is almost entirely image-only except Q29 option text (ELI/ZGD/NXR) and Q28 stem (full-width bracket sic) and Q38 symbol fragments; the Quant section is image-only except Q58 (geometry angles + options with key mark), Q62 (trig expression), Q65 (17^3-7^3 expression + options), Q71 (garbled option set), Q66 (bar-graph average stem + options 50/60/80/30) and Q67 (pie-chart sports spending stem + options); the GA section is image-only except Q88 (free-enterprise economy), Q89 (microfinance regulator), Q90 (Sher Shah's Tomb) and Q91 (Maharashtra social-justice association) with full stems + options; GA Q.17-24 (global 92-99) carry recovered SSC Question IDs + one candidate's Status/Chosen Option lines (final chunk re-fetched 2026-08-24) but image-only question bodies; GA Q.25 (global 100) is absent from the PDF's text layer (the document ends at GA Q.24). Everything else is marked [NOT RECOVERABLE] and has NOT been invented, completed or paraphrased. RESOLVED SOURCE-AVAILABILITY ISSUE + CORRECTION LOG (2026-08-24): in the initial build the final chunk of the source PDF (GA section-questions 17-24, global 92-99) consistently returned S3 AccessDenied while chunks 0-3 retrieved successfully, so those globals were marked NOT RECOVERABLE with no SSC Question IDs, and two Question-ID lines encountered earlier in the parse (264330144478, 264330146002) were provisionally positioned at global 92/93. On 2026-08-24 the final chunk became retrievable; chunks 3-4 were re-fetched continuously (chunk 3 ends with the GA Q.16 block, ID 264330148591, and chunk 4 begins with the GA Q.17 block), establishing GA Q.17=264330145716 (Answered, Chosen 2), Q.18=264330150353 (Answered, Chosen 1), Q.19=264330150428 (Not Answered), Q.20=264330150049 (status line cut off), Q.21=264330154804 (Answered, Chosen 3), Q.22=264330145880 (Answered, Chosen 3), Q.23=264330151328 (Answered, Chosen 1), Q.24=264330149940 (Not Answered) = global 92-99, all with image-only question bodies. The previously positioned IDs 264330144478 and 264330146002 do not appear anywhere in the fully re-fetched text layer of this PDF (all 5 chunks re-verified) and are treated as parse artifacts; they are attributed to no question. GA Q.25 (global 100) does not exist in the PDF's text layer (document ends at GA Q.24) and remains NOT RECOVERABLE. SECTION ORDER on the CBE screen for CHSL 2023 Tier I: 1) English Language (Q.1-25), 2) General Intelligence (Q.1-25), 3) Quantitative Aptitude (Q.1-25), 4) General Awareness (Q.1-25); this file uses global numbering 1-100 in that order (English=1-25, Reasoning=26-50, Quant=51-75, GA=76-100); the original per-section SSC question_id is recorded for every question where present. UNATTRIBUTED FRAGMENTS (listed, NOT attached): (a) Reasoning - an options fragment '1. / 2. / X 3.' appearing between two isolated Question-ID lines (264330146997, 264330146478) whose own question headers were not parsed; attribution between those two questions cannot be established; (b) Quant - a mixed-fraction option set 7 2/3, 6 2/3, 5 2/3, 8 2/3 (re-fetch position: text gap between the Quant Q.8 (global 58) and Q.9 (global 59) blocks, together with (c); not attached); (c) Quant - a DI table 'Name | Unit test 1-4: Rani 20 22 24 23; Raju 22 18 24 20; Ravi 24 22 20 24; Rekha 20 21 22 23' (re-fetch position: same gap as (b)); (d) Quant - a fragment 'A=63/65' (re-fetch position: same gap as the Q62 trig expression, between the Quant Q.12 (global 62) and Q.13 (global 63) blocks); (e) Quant - area-like fragments 242√3 and 121√3 (the latter rendered '∨3.121√3', a probable check-mark rendering artifact); these appear in the same gap directly after the Quant Q.25 (global 75) block as the angle option set now attached to Q75, but are NOT attached because Q75 already carries a 4-option angle set and their true owner cannot be established. LEAKED-FRAGMENT ATTRIBUTION CONVENTION: text-layer fragments that appear directly after a question's own Question-ID + Status block are attributed (as 'probable') to that question, because the following question in every such case carries its own complete ID + Status block; this is a layout inference, flagged per-question. CANDIDATE RESPONSES: recorded per question in answer_note as reference only; they are NOT official answers. KEY-MARK ARTIFACTS: some source tables embed check-mark / 'X' marks next to options (Quant Q58, Q66, Q67). These are Adda247's answer-key notation inside the export; they are UNVERIFIED against the SSC official key, so they are recorded in answer_note only and never used to set correct_answer. ANSWERS: the official CHSL 2023 answer key (final key published 19-Aug-2023 per SSC notice) is downloadable only by logged-in candidates on ssc.gov.in/ssc.nic.in with roll number + password; no machine-accessible official key was found in this environment, so every correct_answer here is null and answer_source null.",
+  "questions": [
+    {
+      "question_number": 1,
+      "subject": "English Language",
+      "question_id": "264330143141",
+      "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nDespite being his competitor, John was generous and forgiving in defeat and congratulated his opponent on his well-deserved victory.",
+      "options": {
+        "A": "altruistic",
+        "B": "magnanimous",
+        "C": "fainthearted",
+        "D": "venomous"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 2,
+      "subject": "English Language",
+      "question_id": "264330144233",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words/phrase.\nA person who has features of extrovert and introvert",
+      "options": {
+        "A": "Stoic",
+        "B": "Ambivert",
+        "C": "Ambiguous",
+        "D": "Dual"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 3,
+      "subject": "English Language",
+      "question_id": null,
+      "question": "Select the option that can be used as a one-word substitute for the given group of words.\nSomething which cannot be easily conquered",
+      "options": {
+        "A": "Frightening",
+        "B": "Invincible",
+        "C": "Reciprocal",
+        "D": "Stable"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "SSC Question ID not present in parsed text layer (the Question-ID line fell on a page boundary and was not parsed). No Status/Chosen line present."
+    },
+    {
+      "question_number": 4,
+      "subject": "English Language",
+      "question_id": "264330143960",
+      "question": "Select the most appropriate ANTONYM of the underlined word in the following sentence.\nBhagat Singh was a young firebrand, whose militant activism and revolutionary fervour made him a symbol of resistance against the British Raj.",
+      "options": {
+        "A": "Violent",
+        "B": "Radical",
+        "C": "Moderate",
+        "D": "Ultra"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 5,
+      "subject": "English Language",
+      "question_id": "264330142658",
+      "question": "Select the most appropriate synonym of the bracketed word in the following sentence to fill in the blank.\nThe security cameras can automatically ____________ (rotate) to monitor the entire hallway.",
+      "options": {
+        "A": "evolve",
+        "B": "resolve",
+        "C": "revolve",
+        "D": "devolve"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 6,
+      "subject": "English Language",
+      "question_id": "264330149587",
+      "question": "Parts of a sentence are given below in jumbled order. Select the option that arranges the parts in the correct order to form a meaningful sentence.\nA. as some 71 per cent of Earth’s surface is covered by saltwater oceans, and\nB. notwithstanding that Europa and Enceladus (moons of Jupiter and Saturn, respectively)\nC. the continents themselves possess lakes, rivers, and, in some cases, seas\nD. are both covered in ice, Earth is the true water world of the solar system",
+      "options": {
+        "A": "B, D, A, C",
+        "B": "B, C, A, D",
+        "C": "A, B, D, C",
+        "D": "A, B, C, D"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 7,
+      "subject": "English Language",
+      "question_id": "264330144368",
+      "question": "Parts of the following sentence have been given as options. Select the option that contains an error.\nHe lives in 45 Church Street with his family.",
+      "options": {
+        "A": "in 45 Church Street",
+        "B": "with his family",
+        "C": "lives",
+        "D": "He"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 8,
+      "subject": "English Language",
+      "question_id": "264330144157",
+      "question": "Select the most appropriate synonym of the word ‘Scrutiny’ from the given sentence.The company's strategic plan included a comprehensive analysis of market trends and consumer behaviour.",
+      "options": {
+        "A": "Behaviour",
+        "B": "Comprehensive",
+        "C": "Trends",
+        "D": "Analysis"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 9,
+      "subject": "English Language",
+      "question_id": "264330144310",
+      "question": "Select the most appropriate synonym of the word‘Capable’from the given sentence.Jayesh was competent and the best candidate for the post of clerk in the interview,whereas others were inefficient and irritating.",
+      "options": {
+        "A": "best",
+        "B": "irritating",
+        "C": "competent",
+        "D": "inefficient"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 10,
+      "subject": "English Language",
+      "question_id": "264330142599",
+      "question": "Select the option that expresses the following sentence in passive voice.Your mother teaches us English literature.",
+      "options": {
+        "A": "English literature is taught to us by your mother.",
+        "B": "English literature has been taught to us by your mother.",
+        "C": "Your mother is taught to us English literature.",
+        "D": "English literature taught to us by your mother."
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 11,
+      "subject": "English Language",
+      "question_id": "264330149887",
+      "question": "The following sentence has been split into four segments.Identify the segment that contains a grammatical error.He sang / beautifully but / the judges were / unimpress at the end.",
+      "options": {
+        "A": "the judges were",
+        "B": "unimpress at the end",
+        "C": "He sang",
+        "D": "beautifully but"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 12,
+      "subject": "English Language",
+      "question_id": "264330149751",
+      "question": "Select the most appropriate ANTONYM of the given word.\nStationary",
+      "options": {
+        "A": "Moving",
+        "B": "Immobile",
+        "C": "Permanent",
+        "D": "Stable"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 13,
+      "subject": "English Language",
+      "question_id": "264330141318",
+      "question": "Select the correct spelling from the given options to fill in the blank. The civil engineers are trying to __________ the bridge using the new technology.",
+      "options": {
+        "A": "elevate",
+        "B": "ilivate",
+        "C": "alivate",
+        "D": "elivait"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 14,
+      "subject": "English Language",
+      "question_id": "264330142649",
+      "question": "Select the most appropriate homonym in the context of the following sentence to fill in the blank. My birthday will ________on a Friday this year.",
+      "options": {
+        "A": "fail: to go down onto the ground suddenly",
+        "B": "fail: to come at a particular time or happen in a particular place",
+        "C": "fail: to change to a particular condition",
+        "D": "fail: to be beaten or defeated"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative). Note: the options read 'fail' verbatim as printed in the source (the intended word is presumably 'fall' - preserved as in source)."
+    },
+    {
+      "question_number": 15,
+      "subject": "English Language",
+      "question_id": "264330148931",
+      "question": "Select the most appropriate meaning of the given idiom.\nPlay it by ear",
+      "options": {
+        "A": "Obey the rules blindly",
+        "B": "Act as suggested",
+        "C": "Discontinue impulsively",
+        "D": "Perform without any rehearsals"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 16,
+      "subject": "English Language",
+      "question_id": "264330149582",
+      "question": "Parts of a sentence are given below in jumbled order. Select the option that arranges the parts in the correct order to form a meaningful sentence.\nA. with the occult and the satanic which in turn, owes much also to\nB. Poe’s work owes much to the concern of Romanticism\nC. shaping plausible fabrics out of impalpable materials\nD. his own feverish dreams, to which he applied a rare faculty of",
+      "options": {
+        "A": "A, B, D, C",
+        "B": "A, B, C, D",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 17,
+      "subject": "English Language",
+      "question_id": "264330143231",
+      "question": "Select the most appropriate idiom to fill in the blank.\nAshu is a dedicated guy, always ready to _________ for the betterment of his company.",
+      "options": {
+        "A": "snug as a bug in a rug",
+        "B": "lose his marbles",
+        "C": "rain on his parade",
+        "D": "go the extra mile"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 18,
+      "subject": "English Language",
+      "question_id": "264330144237",
+      "question": "Select the option that can be used as a one-word substitute for the given group of words/phrase.\nThe doctor who treats bone problems",
+      "options": {
+        "A": "Obstetrician",
+        "B": "Gynaecologist",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 19,
+      "subject": "English Language",
+      "question_id": "264330142643",
+      "question": "Identify the INCORRECTLY spelt word in the following sentence and select its correct spelling from the given options.\nYour lack of knowledge of recent advances in technology will be a sitback for your business.",
+      "options": {
+        "A": "advancess",
+        "B": "knowleidge",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 20,
+      "subject": "English Language",
+      "question_id": "264330143042",
+      "question": "Select the option that expresses the given sentence in passive voice.\nThe Governor of the state inaugurated the exhibition in a grand way.",
+      "options": {
+        "A": "The exhibition had been inaugurated by the Governor of the state in a grand way.",
+        "B": "The exhibition inaugurated by the Governor of the state in a grand way.",
+        "C": "The exhibition has been inaugurated by the Governor of the state in a grand way.",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 21,
+      "subject": "English Language",
+      "question_id": "264330151302",
+      "question": "Comprehension:\nIn the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\nOur school organised a graduation day to award certificates to the students. The graduation day highlights the overall achievements of students. All the students who are being graduated are invited formally with their parents. Students wore their attire according to the dress code given to them by the school administration. High school graduation ________(1) is one of the most awaited and last event of any school. The function began with ________ (2) the lamp, followed by the distribution of certificates in a very systematic way. Our principal made a long and ________ (3) speech and blessed us for the future ________ (4). On behalf of our graduating class, our class representative extended a vote of thanks to show ________ (5) to all staff members. One of the parents expressed their experiences and views. At last, all the students, parents and staff members had lunch together.\nSelect the most appropriate option to fill in blank number 1.",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "incident",
+        "D": "ceremony"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 22,
+      "subject": "English Language",
+      "question_id": "264330151303",
+      "question": "Comprehension:\nIn the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\nOur school organised a graduation day to award certificates to the students. The graduation day highlights the overall achievements of students. All the students who are being graduated are invited formally with their parents. Students wore their attire according to the dress code given to them by the school administration. High school graduation ________(1) is one of the most awaited and last event of any school. The function began with ________ (2) the lamp, followed by the distribution of certificates in a very systematic way. Our principal made a long and ________ (3) speech and blessed us for the future ________ (4). On behalf of our graduating class, our class representative extended a vote of thanks to show ________ (5) to all staff members. One of the parents expressed their experiences and views. At last, all the students, parents and staff members had lunch together.\nSelect the most appropriate option to fill in blank number 2.",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "sparking",
+        "D": "glittering"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered (chosen option cut off in parsed layer) (reference only, not authoritative)."
+    },
+    {
+      "question_number": 23,
+      "subject": "English Language",
+      "question_id": "264330151304",
+      "question": "Comprehension:\nIn the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\nOur school organised a graduation day to award certificates to the students. The graduation day highlights the overall achievements of students. All the students who are being graduated are invited formally with their parents. Students wore their attire according to the dress code given to them by the school administration. High school graduation ________(1) is one of the most awaited and last event of any school. The function began with ________ (2) the lamp, followed by the distribution of certificates in a very systematic way. Our principal made a long and ________ (3) speech and blessed us for the future ________ (4). On behalf of our graduating class, our class representative extended a vote of thanks to show ________ (5) to all staff members. One of the parents expressed their experiences and views. At last, all the students, parents and staff members had lunch together.\nSelect the most appropriate option to fill in blank number 3.",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "boring",
+        "D": "depressing"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 24,
+      "subject": "English Language",
+      "question_id": "264330151305",
+      "question": "Comprehension:\nIn the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\nOur school organised a graduation day to award certificates to the students. The graduation day highlights the overall achievements of students. All the students who are being graduated are invited formally with their parents. Students wore their attire according to the dress code given to them by the school administration. High school graduation ________(1) is one of the most awaited and last event of any school. The function began with ________ (2) the lamp, followed by the distribution of certificates in a very systematic way. Our principal made a long and ________ (3) speech and blessed us for the future ________ (4). On behalf of our graduating class, our class representative extended a vote of thanks to show ________ (5) to all staff members. One of the parents expressed their experiences and views. At last, all the students, parents and staff members had lunch together.\nSelect the most appropriate option to fill in blank number 4.",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "entertainments",
+        "D": "ruins"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 25,
+      "subject": "English Language",
+      "question_id": "264330151306",
+      "question": "Comprehension:\nIn the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in each blank.\nOur school organised a graduation day to award certificates to the students. The graduation day highlights the overall achievements of students. All the students who are being graduated are invited formally with their parents. Students wore their attire according to the dress code given to them by the school administration. High school graduation ________(1) is one of the most awaited and last event of any school. The function began with ________ (2) the lamp, followed by the distribution of certificates in a very systematic way. Our principal made a long and ________ (3) speech and blessed us for the future ________ (4). On behalf of our graduating class, our class representative extended a vote of thanks to show ________ (5) to all staff members. One of the parents expressed their experiences and views. At last, all the students, parents and staff members had lunch together.\nSelect the most appropriate option to fill in blank number 5.",
+      "options": {
+        "A": "gracious",
+        "B": "gratitude",
+        "C": "courteous",
+        "D": "greet"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 26,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147362",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 27,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330152123",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 28,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147222",
+      "question": "Identify the figure given in the options which when put in place of the question mark (?）will logically complete the series. (sic - full-width closing bracket as in source)\n[figure - not recoverable: series figures and options rendered as images in source]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 29,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146653",
+      "question": "Based on the alphabetical order, three of the following four are alike in a certain way and thus form a group Which is the one that does NOT belong to that group?",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "ELI",
+        "C": "ZGD",
+        "D": "NXR"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 30,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330152169",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 31,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146910",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 32,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147495",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 33,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330150686",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 34,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146415",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 35,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330150979",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 36,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147417",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 37,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330150476",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 38,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147080",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked text layer, attribution to this question probable: garbled symbol fragments '∇M + N°', 'v^s' (verbatim, sic)]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 39,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146969",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 40,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146401",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 41,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147458",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 42,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146349",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 43,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330155137",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 44,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146714",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 45,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146738",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 46,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146997",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[question header not present in parsed layer; only this isolated Question-ID line was recovered - treated as section-question 21 by position]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 47,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146478",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[question header not present in parsed layer; only this isolated Question-ID line was recovered - treated as section-question 22 by position]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 48,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330150697",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 49,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330146764",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 50,
+      "subject": "General Intelligence and Reasoning",
+      "question_id": "264330147032",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 51,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147954",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 52,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330150626",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 53,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147709",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 54,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330149273",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 55,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330150657",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked text layer, attribution to this question probable: expression '(x²−1)/(x−1) − (x²−9)/(x−3)' (verbatim)]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 56,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330148813",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 57,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330146441",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 58,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147764",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked text layer, attribution to this question probable: geometry fragment '∠ACD=127°, ∠ABC=35° ... find ∠BAC' (verbatim, sic); leaked option set: 82°, 92° (with embedded check-mark), 95°, 75°]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Source table shows an embedded check-mark next to option 2 (Adda247's answer-key notation in the export; unverified against the SSC official key - NOT used). No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 59,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147729",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 60,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147981",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 61,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147975",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 62,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330151133",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked text layer, attribution to this question probable: expression '4(sin⁶A+cos⁶A)−6(sin⁴A+cos⁴A)+8' (verbatim)]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered (chosen option cut off in parsed layer) (reference only, not authoritative)."
+    },
+    {
+      "question_number": 63,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330148190",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 64,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147952",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 65,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330149343",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked text layer, attribution to this question probable: expression '4[(17)³−(7)³]/(17²+(7)²+119)' (verbatim); leaked option set: √265/4, √256/4, √156/4, √198/4]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 66,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330150944",
+      "question": "The below bar graph shows the marks obtained by a student in an examination. What is the average mark obtained by the student?\n[bar graph - not recoverable: rendered as image in source]",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "80",
+        "D": "30"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Source table shows 'X' mark next to option 1 and check-marks next to options 2-4 (Adda247's answer-key notation in the export; the multiple marks are a rendering artifact; unverified against the SSC official key - NOT used). Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 67,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330151152",
+      "question": "The pie-chart given here shows the spending of a country on various sports during a year. Study the graph carefully to answer those questions.\npercentage of money spent on Various sports for one year\n[pie chart - not recoverable: rendered as image in source]\nIf the total amount spent on sports during the year was ₹1,50,00,000, then the amount spent on Cricket and hockey together was:",
+      "options": {
+        "A": "₹60,00,000",
+        "B": "₹75,00,000",
+        "C": "₹50,00,000",
+        "D": "₹37,50,000"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Source table shows check-marks next to all four options (rendering artifact; unverified against the SSC official key - NOT used). Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 68,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330149460",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 69,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330149409",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 70,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330151411",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 71,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330148187",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked option set, attribution to this question probable per layout: 'Θ=1/5' (sic), 'S/7' (sic), 7/5, 'S/3' (sic), 3/5 - garbled in source]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 72,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330148846",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 73,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330146535",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 74,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330147889",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 75,
+      "subject": "Quantitative Aptitude",
+      "question_id": "264330146814",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]\n[leaked option set, attribution to this question probable per layout: 65°, 40°, 75°, 55° (four angle options appearing directly after this question's Question-ID + Status block)]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered (chosen option cut off in parsed layer) (reference only, not authoritative)."
+    },
+    {
+      "question_number": 76,
+      "subject": "General Awareness",
+      "question_id": "264330152279",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 77,
+      "subject": "General Awareness",
+      "question_id": "264330145601",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Not Answered (reference only, not authoritative)."
+    },
+    {
+      "question_number": 78,
+      "subject": "General Awareness",
+      "question_id": "264330150705",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 79,
+      "subject": "General Awareness",
+      "question_id": "264330145969",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered (chosen option cut off in parsed layer) (reference only, not authoritative)."
+    },
+    {
+      "question_number": 80,
+      "subject": "General Awareness",
+      "question_id": "264330145680",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 81,
+      "subject": "General Awareness",
+      "question_id": "264330150244",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: 'Not Attempted and Status : Marked For Review', Chosen Option -- (reference only, not authoritative)."
+    },
+    {
+      "question_number": 82,
+      "subject": "General Awareness",
+      "question_id": "264330148635",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 83,
+      "subject": "General Awareness",
+      "question_id": "264330144773",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Not Answered (reference only, not authoritative)."
+    },
+    {
+      "question_number": 84,
+      "subject": "General Awareness",
+      "question_id": "264330145707",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Not Answered (reference only, not authoritative)."
+    },
+    {
+      "question_number": 85,
+      "subject": "General Awareness",
+      "question_id": "264330150249",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 86,
+      "subject": "General Awareness",
+      "question_id": "264330145990",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 87,
+      "subject": "General Awareness",
+      "question_id": "264330149637",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer."
+    },
+    {
+      "question_number": 88,
+      "subject": "General Awareness",
+      "question_id": "264330144662",
+      "question": "Which of these is NOT a characteristic of a free-enterprise economy?",
+      "options": {
+        "A": "Decisions are based on the forces of demand and supply.",
+        "B": "Factor rewards are based on the productivity of factors of production.",
+        "C": "All economic decisions are taken by the economic planners.",
+        "D": "Economic decisions are regulated by the market."
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 4 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 89,
+      "subject": "General Awareness",
+      "question_id": "264330145701",
+      "question": "Which regulatory body oversees microfinance institutions in India?",
+      "options": {
+        "A": "Reserve Bank of India (RBI)",
+        "B": "Ministry of Finance",
+        "C": "Insurance Regulatory and Development Authority of India (IRDAI)",
+        "D": "Securities and Exchange Board of India (SEBI)"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 90,
+      "subject": "General Awareness",
+      "question_id": "264330148572",
+      "question": "In which State of India is Sher Shah's Tomb located?",
+      "options": {
+        "A": "Bihar",
+        "B": "Uttar Pradesh",
+        "C": "Punjab",
+        "D": "Bengal"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 91,
+      "subject": "General Awareness",
+      "question_id": "264330148591",
+      "question": "Which of the following associations was formed in Maharashtra to get social justice for the weaker sections of society?",
+      "options": {
+        "A": "Theosophical Society",
+        "B": "Arya Samaj",
+        "C": "Satya Shodhak Samaj",
+        "D": "Dharma Paripalana Yogam"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 92,
+      "subject": "General Awareness",
+      "question_id": "264330145716",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 2 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 93,
+      "subject": "General Awareness",
+      "question_id": "264330150353",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 94,
+      "subject": "General Awareness",
+      "question_id": "264330150428",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Not Answered (reference only, not authoritative)."
+    },
+    {
+      "question_number": 95,
+      "subject": "General Awareness",
+      "question_id": "264330150049",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Status/Chosen line present in parsed text layer (the line is cut off at a page boundary in the source parse; see notes)."
+    },
+    {
+      "question_number": 96,
+      "subject": "General Awareness",
+      "question_id": "264330154804",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 97,
+      "subject": "General Awareness",
+      "question_id": "264330145880",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 3 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 98,
+      "subject": "General Awareness",
+      "question_id": "264330151328",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Answered, Chosen Option 1 (reference only, not authoritative)."
+    },
+    {
+      "question_number": 99,
+      "subject": "General Awareness",
+      "question_id": "264330149940",
+      "question": "[NOT RECOVERABLE: rendered as image in source PDF]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "Candidate response in CBE export: Status Not Answered (reference only, not authoritative)."
+    },
+    {
+      "question_number": 100,
+      "subject": "General Awareness",
+      "question_id": null,
+      "question": "[NOT RECOVERABLE: question does not appear in the source PDF's parsed text layer - the document ends at General Awareness section question 24 (no GA Q.25 block present in any chunk of the fully re-fetched PDF); see notes correction log]",
+      "options": {
+        "A": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "B": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "C": "[NOT RECOVERABLE: rendered as image in source PDF]",
+        "D": "[NOT RECOVERABLE: rendered as image in source PDF]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No Question ID/Status line present in parsed text layer (GA Q.25 block absent from source PDF; see notes)."
+    }
+  ]
+}

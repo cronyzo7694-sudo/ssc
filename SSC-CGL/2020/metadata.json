@@ -1,0 +1,68 @@
+{
+  "conducted": false,
+  "notes": "CORRECTION LOG (2026-08-24): an earlier build marked calendar year 2020 as 'exam NOT conducted'. That was WRONG at Tier-I level: the CGL 2019-20 cycle Tier I (CBE) WAS conducted in March 2020 - documented by Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) listing 03, 04, 05, 06, 07-Mar-2020 with Shifts 1-3 and 09-Mar-2020 with Shift 1 (S2/S3 rows lost at parse boundary - TO VERIFY). What WAS postponed/merged into CGL 2020-21 was the subsequent TIER II of that cycle. The Oliveboard table lists exam days only through 09-Mar-2020; whether 10, 11 or 13-Mar-2020 (remaining weekdays of the reported 03-13 Mar window) were exam days is NOT documented in this source (completeness TO VERIFY). No verified question-paper files collected for this year.",
+  "schedule": [
+    {
+      "date": "2020-03-03",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2020 Tier 1 PYPs ... held in March 2020'): Shifts 1-3 listed for this date"
+    },
+    {
+      "date": "2020-03-04",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2020 Tier 1 PYPs ... held in March 2020'): Shifts 1-3 listed for this date"
+    },
+    {
+      "date": "2020-03-05",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2020 Tier 1 PYPs ... held in March 2020'): Shifts 1-3 listed for this date"
+    },
+    {
+      "date": "2020-03-06",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2020 Tier 1 PYPs ... held in March 2020'): Shifts 1-3 listed for this date"
+    },
+    {
+      "date": "2020-03-07",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2020 Tier 1 PYPs ... held in March 2020'): Shifts 1-3 listed for this date"
+    },
+    {
+      "date": "2020-03-09",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): Shift 1 row confirmed; Shift 2/3 rows lost at a fetch chunk boundary - TO VERIFY (listed as expected, flagged)"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CGL 2019-20 Tier I postponed and merged into CGL 2020-21 (SSC notification; see SSC-CGL/2021/metadata.json)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CGL",
+  "year": 2020,
+  "tier": "Tier I",
+  "papers": []
+}

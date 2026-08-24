@@ -1,0 +1,86 @@
+{
+  "conducted": true,
+  "notes": "Calendar-year-2021 exam = SSC CGL 2020-21 cycle Tier I (CBE), conducted between 13-Aug-2021 and 24-Aug-2021. Documented per-day shifts per Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24): 13-Aug (S1-3), 16-Aug (S1-3), 17-Aug (S1), 23-Aug (S1) = 8 documented shifts; the other window days are not listed in that table (the table lists only dates for which Oliveboard hosts PDFs - completeness TO VERIFY; null). No verified question-paper files collected for this year.",
+  "schedule": [
+    {
+      "date": "2021-08-13",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2021 Tier 1 PYPs ... conducted in August 2021'): Shift-1, Shift-2, Shift-3 listed for this date"
+    },
+    {
+      "date": "2021-08-14",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-15",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-16",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2021 Tier 1 PYPs ... conducted in August 2021'): Shift-1, Shift-2, Shift-3 listed for this date"
+    },
+    {
+      "date": "2021-08-17",
+      "expected_shifts": [
+        "Shift-1"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2021 Tier 1 PYPs ... conducted in August 2021'): Shift-1 listed for this date"
+    },
+    {
+      "date": "2021-08-18",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-19",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-20",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-21",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-22",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    },
+    {
+      "date": "2021-08-23",
+      "expected_shifts": [
+        "Shift-1"
+      ],
+      "evidence": "Oliveboard Tier I PYP page shift-wise table (https://www.oliveboard.in/blog/ssc-cgl-tier-1-pyps/, accessed 2026-08-24) ('SSC CGL 2021 Tier 1 PYPs ... conducted in August 2021'): Shift-1 listed for this date"
+    },
+    {
+      "date": "2021-08-24",
+      "expected_shifts": null,
+      "evidence": "inside documented 13-24 Aug 2021 window; NOT listed in the Oliveboard PYP table (which lists only dates it hosts PDFs for) - per-day status TO VERIFY"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "SSC CGL 2020-21 Tier I window 13-24 Aug 2021 (SSC notification; per coaching-portal coverage)",
+    "answer_key": "not documented in machine-accessible sources in this environment (SSC answer-key portal is login-gated per candidate)"
+  },
+  "exam": "SSC CGL",
+  "year": 2021,
+  "tier": "Tier I",
+  "papers": []
+}

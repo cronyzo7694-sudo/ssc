@@ -1,0 +1,171 @@
+{
+  "conducted": true,
+  "notes": "Calendar year 2023 contains TWO CHSL Tier I (CBE) examinations: (a) CHSL 2022-23 cycle: result91.com/Shiksha document exam days 09, 10, 13 and 16-Mar-2023 (completeness of this day list NOT verified - other March days may have been exam days; per-day shift counts not established - null); (b) CHSL 2023-24 cycle: conducted on 02, 03, 04, 07, 08, 09, 10, 11, 14 and 17-Aug-2023 (10 exam days) with 4 shifts per day = 40 expected shifts, per Adda247's CHSL PYQ page which hosts 4 distinct CBE exam-screen export PDFs (one per shift) for each of the 10 dates (object ids 09181126-09181238). CONFLICT: Shiksha's per-day article TOC lists 'August 5' as an exam day (absent from Adda247's PDF map); Adda247's direct per-shift PDFs are the stronger evidence and are used here, with the conflict flagged. Verified files in this repository: 02-Aug Shifts 1-4 and 03-Aug Shifts 1 and 4 (6 of 40).",
+  "schedule": [
+    {
+      "date": "2023-03-09",
+      "expected_shifts": null,
+      "evidence": "CHSL 2022-23 cycle March 2023 exam day per result91.com / Shiksha per-day articles; day-list completeness NOT verified; per-day shift counts not established"
+    },
+    {
+      "date": "2023-03-10",
+      "expected_shifts": null,
+      "evidence": "CHSL 2022-23 cycle March 2023 exam day per result91.com / Shiksha per-day articles; day-list completeness NOT verified; per-day shift counts not established"
+    },
+    {
+      "date": "2023-03-13",
+      "expected_shifts": null,
+      "evidence": "CHSL 2022-23 cycle March 2023 exam day per result91.com / Shiksha per-day articles; day-list completeness NOT verified; per-day shift counts not established"
+    },
+    {
+      "date": "2023-03-16",
+      "expected_shifts": null,
+      "evidence": "CHSL 2022-23 cycle March 2023 exam day per result91.com / Shiksha per-day articles; day-list completeness NOT verified; per-day shift counts not established"
+    },
+    {
+      "date": "2023-08-02",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-03",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-04",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-07",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-08",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-09",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-10",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-11",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-14",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    },
+    {
+      "date": "2023-08-17",
+      "expected_shifts": [
+        "Shift-1",
+        "Shift-2",
+        "Shift-3",
+        "Shift-4"
+      ],
+      "evidence": "CHSL 2023-24 cycle: Adda247 CHSL PYQ page hosts 4 direct CBE export PDFs for this date (Shift I-IV), base https://www.adda247.com/jobs/wp-content/uploads/sites/22/2025/07/ ; Shiksha TOC lists 05-Aug (not in Adda map) - conflict flagged"
+    }
+  ],
+  "official_references": {
+    "exam_dates_notice": "CHSL 2023-24 Tier I: 10 exam days in Aug 2023 per SSC notification coverage + Adda247 per-shift PDF map; CHSL 2022-23 cycle March 2023 days per result91.com",
+    "answer_key": "CHSL 2023 (Aug 2023) final answer key published 19-Aug-2023 (SSC notice); per-candidate download login-gated; no public consolidated key PDF found in this environment"
+  },
+  "exam": "SSC CHSL",
+  "year": 2023,
+  "tier": "Tier I",
+  "papers": [
+    {
+      "file": "2023-08-02_Shift-1.json",
+      "date": "2023-08-02",
+      "shift": "Shift-1",
+      "status": "verified"
+    },
+    {
+      "file": "2023-08-02_Shift-2.json",
+      "date": "2023-08-02",
+      "shift": "Shift-2",
+      "status": "verified"
+    },
+    {
+      "file": "2023-08-02_Shift-3.json",
+      "date": "2023-08-02",
+      "shift": "Shift-3",
+      "status": "verified"
+    },
+    {
+      "file": "2023-08-02_Shift-4.json",
+      "date": "2023-08-02",
+      "shift": "Shift-4",
+      "status": "verified"
+    },
+    {
+      "file": "2023-08-03_Shift-1.json",
+      "date": "2023-08-03",
+      "shift": "Shift-1",
+      "status": "verified"
+    },
+    {
+      "file": "2023-08-03_Shift-4.json",
+      "date": "2023-08-03",
+      "shift": "Shift-4",
+      "status": "verified"
+    }
+  ]
+}
