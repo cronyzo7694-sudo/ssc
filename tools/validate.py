@@ -12,7 +12,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-FILE_RE = re.compile(r'^(\d{4})-(\d{2})-(\d{2})_Shift-(\d+)(?:_(PARTIAL|INCOMPLETE))?\.json$')
+FILE_RE = re.compile(r'^(\d{4})-(\d{2})-(\d{2})_Shift-(\d+)(?:_(PARTIAL(?:_[A-Z]+)?|INCOMPLETE))?\.json$')
 REQUIRED_TOP = ["exam", "year", "tier", "date", "shift", "source",
                 "source_type", "verification_status", "questions"]
 REQUIRED_Q = ["question_number", "subject", "question", "options",
@@ -117,7 +117,10 @@ def validate_file(path):
             errors.append(f"{loc}: duplicate question_number {qn}")
         seen.add(qn)
         if expected_next is not None and qn != expected_next:
-            errors.append(f"{loc}: question_number {qn} breaks continuity (expected {expected_next})")
+            if data["verification_status"] in ("verified", "unverified"):
+                errors.append(f"{loc}: question_number {qn} breaks continuity (expected {expected_next})")
+            else:
+                warnings.append(f"{loc}: partial recovery has numbering gap before {qn} (expected {expected_next})")
         expected_next = qn + 1
         if not isinstance(q.get("question"), str) or not q["question"].strip():
             errors.append(f"{loc} (Q{qn}): empty question text")

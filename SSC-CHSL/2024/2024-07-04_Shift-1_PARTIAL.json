@@ -13,22 +13,251 @@
   "source_urls": [
     "https://www.careerpower.in/blog/ssc-chsl-4th-july-exam-analysis-2024"
   ],
-  "notes": "PARTIAL paper only. Career Power reports 14 directly transcribed Quantitative Aptitude questions recalled by candidates for SSC CHSL Tier I 04-Jul-2024 Shift-1. Section-local Q1-Q14 are stored using the repository's global numbering convention (Q51-Q64 for the Quant section). Remaining questions and all options are not present in this source and are explicitly marked NOT RECOVERABLE. No answers inferred.",
+  "notes": "PARTIAL paper only. Career Power reports 14 directly transcribed Quantitative Aptitude questions and 3 exact General Awareness question stems recalled by candidates for SSC CHSL Tier I 04-Jul-2024 Shift-1. Section-local Q1-Q14 are stored using the repository's global numbering convention (Q51-Q64 for the Quant section). Remaining questions and all options are not present in this source and are explicitly marked NOT RECOVERABLE. No answers inferred.",
   "verification_notes": "Date, exam, tier and shift are explicitly identified by the source article. This is a single-source memory-based recovery, not an official paper and not a complete shift paper.",
   "questions": [
-    {"question_number": 51, "subject": "Quantitative Aptitude", "question": "If the ratio of the box side is 3:5:8 and the Total surface area is 632 cm square. Find the volume of the box.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 52, "subject": "Quantitative Aptitude", "question": "Find tan570°", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 53, "subject": "Quantitative Aptitude", "question": "If the sides of 3 cubes are 6, 8, and 10 cm then they melt into a new cube. Then find the total surface area.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 54, "subject": "Quantitative Aptitude", "question": "Find the average of the natural number from 1 to 69.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 55, "subject": "Quantitative Aptitude", "question": "If price = 550, down payment = 250, And after 1 month customer pays Rs.310. Find the Rate of interest.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 56, "subject": "Quantitative Aptitude", "question": "40% of CP = 70% of SP. Find profit percentage?", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 57, "subject": "Quantitative Aptitude", "question": "If A & B complete a work in 15 days, the same work B & C complete in 30 days and the same work C & A complete in 45 days. So in how many days A, B & C complete the same work?", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 58, "subject": "Quantitative Aptitude", "question": "Circle of Radius 8 cm. From outside point K, two tangents are drawn as KA and KB. The center of the circle is O and OK is 17 cm. Find the Area of quadrilateral KAOB.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 59, "subject": "Quantitative Aptitude", "question": "What is the simplest fraction equivalent of 28%?", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 60, "subject": "Quantitative Aptitude", "question": "A person spends 10% on rent, 10% on education, 20% on house and 15% on groceries. Total income is 30 thousand. Find the person’s savings.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 61, "subject": "Quantitative Aptitude", "question": "How many circles will pass from points A, B and C if AB = 11 cm, BC = 13 cm and AC = 24 cm?", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 62, "subject": "Quantitative Aptitude", "question": "Triangle ABC is right angles at B with AB = 15 cm, BC = 20 cm and BD perpendicular to AC. Find the length of BD.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 63, "subject": "Quantitative Aptitude", "question": "Two persons M and N have their age in a ratio of 3:1. After 10 years what will be the age of M?", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."},
-    {"question_number": 64, "subject": "Quantitative Aptitude", "question": "The Curved Surface Area of a Cylinder is equal to 352 cm². Diameter = 14 cm. Find Total Surface Area.", "options": {"A": "[NOT RECOVERABLE: options not present in source]", "B": "[NOT RECOVERABLE: options not present in source]", "C": "[NOT RECOVERABLE: options not present in source]", "D": "[NOT RECOVERABLE: options not present in source]"}, "correct_answer": null, "answer_source": null, "answer_note": "No answer provided by source."}
-  ]
+    {
+      "question_number": 51,
+      "subject": "Quantitative Aptitude",
+      "question": "If the ratio of the box side is 3:5:8 and the Total surface area is 632 cm square. Find the volume of the box.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 52,
+      "subject": "Quantitative Aptitude",
+      "question": "Find tan570°",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 53,
+      "subject": "Quantitative Aptitude",
+      "question": "If the sides of 3 cubes are 6, 8, and 10 cm then they melt into a new cube. Then find the total surface area.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 54,
+      "subject": "Quantitative Aptitude",
+      "question": "Find the average of the natural number from 1 to 69.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 55,
+      "subject": "Quantitative Aptitude",
+      "question": "If price = 550, down payment = 250, And after 1 month customer pays Rs.310. Find the Rate of interest.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 56,
+      "subject": "Quantitative Aptitude",
+      "question": "40% of CP = 70% of SP. Find profit percentage?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 57,
+      "subject": "Quantitative Aptitude",
+      "question": "If A & B complete a work in 15 days, the same work B & C complete in 30 days and the same work C & A complete in 45 days. So in how many days A, B & C complete the same work?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 58,
+      "subject": "Quantitative Aptitude",
+      "question": "Circle of Radius 8 cm. From outside point K, two tangents are drawn as KA and KB. The center of the circle is O and OK is 17 cm. Find the Area of quadrilateral KAOB.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 59,
+      "subject": "Quantitative Aptitude",
+      "question": "What is the simplest fraction equivalent of 28%?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 60,
+      "subject": "Quantitative Aptitude",
+      "question": "A person spends 10% on rent, 10% on education, 20% on house and 15% on groceries. Total income is 30 thousand. Find the person’s savings.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 61,
+      "subject": "Quantitative Aptitude",
+      "question": "How many circles will pass from points A, B and C if AB = 11 cm, BC = 13 cm and AC = 24 cm?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 62,
+      "subject": "Quantitative Aptitude",
+      "question": "Triangle ABC is right angles at B with AB = 15 cm, BC = 20 cm and BD perpendicular to AC. Find the length of BD.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 63,
+      "subject": "Quantitative Aptitude",
+      "question": "Two persons M and N have their age in a ratio of 3:1. After 10 years what will be the age of M?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 64,
+      "subject": "Quantitative Aptitude",
+      "question": "The Curved Surface Area of a Cylinder is equal to 352 cm². Diameter = 14 cm. Find Total Surface Area.",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 76,
+      "subject": "General Awareness",
+      "question": "What is the official Language of Tripura?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 77,
+      "subject": "General Awareness",
+      "question": "Which Delhi Sultanate ruler implemented the rule of ‘blood and iron’?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    },
+    {
+      "question_number": 78,
+      "subject": "General Awareness",
+      "question": "Who is the Governor of Himachal Pradesh?",
+      "options": {
+        "A": "[NOT RECOVERABLE: options not present in source]",
+        "B": "[NOT RECOVERABLE: options not present in source]",
+        "C": "[NOT RECOVERABLE: options not present in source]",
+        "D": "[NOT RECOVERABLE: options not present in source]"
+      },
+      "correct_answer": null,
+      "answer_source": null,
+      "answer_note": "No answer provided by source."
+    }
+  ],
+  "recovered_sections": [
+    "Quantitative Aptitude",
+    "General Awareness"
+  ],
+  "recovered_question_count": 17
 }

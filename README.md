@@ -4,7 +4,7 @@ Verified, one-shift-per-file repository of **SSC CGL** and **SSC CHSL** Tier I (
 
 ## ⚠️ Status: HONEST BEST-EFFORT — NOT COMPLETE COVERAGE
 
-- **12 complete verified shift files** exist (CGL: 3 × 2023 + 3 × 2025; CHSL: 6 × Aug-2023). One separate partial memory-based file preserves 14 confidently attributed CHSL 2024 Quant stems; it is not counted as a complete shift. Every remaining documented expected shift is listed as **MISSING** in the per-year `metadata.json` schedules and in the tables below — missing is documented, never hidden.
+- **12 complete verified shift files** exist (CGL: 3 × 2023 + 3 × 2025; CHSL: 6 × Aug-2023). One separate partial memory-based file preserves 17 confidently attributed CHSL 2024 stems (14 Quant and 3 General Awareness); it is not counted as a complete shift. Every remaining documented expected shift is listed as **MISSING** in the per-year `metadata.json` schedules and in the tables below — missing is documented, never hidden.
 - **No question was invented, completed, simplified or paraphrased.** Anything not recoverable from a source's text layer (image-only question bodies, page-boundary losses, the 30-page PDF parse limit) is marked `[NOT RECOVERABLE: <exact reason>]` in place.
 - **No `correct_answer` is set anywhere.** SSC's answer keys are login-gated per candidate and no machine-accessible consolidated key exists in this environment; candidate "Chosen Option" values and Adda247's embedded ✓/X key-marks are recorded in `answer_note` as *reference only* and are explicitly UNVERIFIED against the SSC official key.
 - Unverified complete candidates are **not** present. Clearly labelled partial recoveries may be present, but they are never counted as complete/verified shifts.
