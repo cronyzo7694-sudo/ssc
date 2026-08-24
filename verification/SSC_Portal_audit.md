@@ -6,9 +6,11 @@ Source classification: `third_party_archive` (SSC Portal is not the official SSC
 
 ## Result
 
-The portal was inspected through its CGL and CHSL index pages and linked year pages. It exposes many useful source candidates, but the index entries alone do not establish that a complete, machine-readable one-shift paper has been recovered. The portal mixes full-paper PDFs, subject-wise HTML pages, image-only questions and ebook links. Therefore **no new JSON paper was added in this pass**: none could be taken through the repository's full integrity gate without downloading and checking every page/question/options.
+The portal was inspected through its CGL and CHSL index pages and linked year pages. It exposes many useful source candidates, but the index entries alone do not establish that a complete, machine-readable one-shift paper has been recovered. The portal mixes full-paper PDFs, subject-wise HTML pages, image-only questions and ebook links.
 
-This is intentional. Existing 12 verified JSON files were not modified.
+A first-paper direct-PDF gate was attempted before any batch processing. The exact origin PDF could not be fetched from this environment (the origin TLS connection closes during handshake). A text extraction proxy was used only to inspect the candidate, not as a substitute for provenance. It reported a 40-page PDF and exposed the CGL header, date and shift, plus four sections of 25 questions. However, figure-based question bodies/options are image-only in the extracted representation (for example Reasoning Q8, Q11, Q14, Q18, Q22 and several Quant items). The original binary could not be downloaded/rendered here to verify those images. Consequently the candidate is **INCOMPLETE / UNVALIDATED**, not a verified paper, and processing stopped at the first-paper gate.
+
+Therefore **no new JSON paper was added in this pass**. Existing 12 verified JSON files were not modified.
 
 ## Index pages found
 
@@ -92,14 +94,39 @@ Examples:
 - <https://sscportal.in/chsl/papers/2020>
 - <https://sscportal.in/chsl/tier-1/papers/2021>
 
+## First-paper gate
+
+Candidate: CGL 2024, 10-Sep-2024, Shift-2
+
+Exact PDF: <https://sscportal.in/sites/default/files/ssc-cgl-tier-1-paper-2024-sep-10-shift-2.pdf>
+
+```text
+PDF fetched directly: NO (origin TLS connection closed)
+PDF inspected through extraction proxy: YES (inspection only)
+PDF readable: YES through extracted text; origin binary unavailable
+PDF type: MIXED (text plus image-only figures/options)
+Page count: 40 (proxy-reported)
+Question count indicated: 100 (4 sections × 25)
+Questions fully recovered: NO
+Questions incomplete: YES — figure/image content is not available in the extracted text
+Metadata verified from PDF: YES for CGL, Tier I, 10/09/2024, 12:30 PM–1:30 PM / Shift-2
+Duplicate against existing repository: NO (date/shift absent from existing files)
+JSON validation: NOT RUN — no JSON created because the candidate failed completeness
+Gate result: STOP — INCOMPLETE / UNVALIDATED
+```
+
+The PDF extraction showed continuous section-local numbering 1–25 in the accessible text, but that is not enough to certify all question bodies and options because image-only figures were not recoverable. No OCR reconstruction was promoted to data.
+
 ## Integrity decision
 
 - Portal pages found: yes.
 - Full-paper candidates found: yes, especially CGL 2024 and CHSL 2024 landing pages.
+- First-paper gate passed: **NO**.
+- Batch processing started: **NO** (correctly stopped after the failed gate).
 - New JSON papers added: **0**.
 - Existing verified papers changed: **0**.
 - Duplicate candidates skipped: **9** (three existing CGL candidates and six existing CHSL candidates, counted by overlap with portal index entries; no duplicate files added).
-- Incomplete/unvalidated candidates: all remaining candidates in this pass; retained as `missing` in coverage metadata.
+- Incomplete/unvalidated candidates: retained as `missing` in coverage metadata.
 - Portal answer keys: not used to populate `correct_answer`; existing policy remains `null` unless a reliable answer source is independently verified.
 
 `source` for any future recovered file from this archive must include the exact portal landing/PDF URL, and `source_type` must be `third_party_archive`. The root index alone must not be used as the only provenance for a paper.
