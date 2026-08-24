@@ -6,8 +6,8 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>🔥 Realistic Palm Fire AR | Live Camera Hand VFX</title>
-  
+  <title>🗡️ One-Hand Knife Game | Camera Slash Arcade</title>
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- FontAwesome 6 Icons -->
@@ -15,50 +15,47 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  
-  <!-- MediaPipe Hands & Camera Utils for Real-time 21-Landmark 3D Single Hand Tracking -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- MediaPipe Hands & Camera Utils for Real-time 21-Landmark ONE-HAND Tracking -->
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="style.css?v=2.0">
+  <link rel="stylesheet" href="style.css?v=3.0">
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen font-['Inter',sans-serif] flex flex-col selection:bg-orange-500 selection:text-black">
+<body class="bg-slate-950 text-slate-100 min-h-screen font-['Inter',sans-serif] flex flex-col selection:bg-cyan-500 selection:text-black">
 
   <!-- TOP APP HEADER -->
-  <header class="border-b border-orange-900/30 bg-slate-950/90 backdrop-blur-md sticky top-0 z-50">
+  <header class="border-b border-cyan-900/40 bg-slate-950/90 backdrop-blur-md sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      
+
       <!-- Brand & Title -->
       <div class="flex items-center space-x-3">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 via-orange-600 to-red-600 p-[2px] flex items-center justify-center shadow-lg shadow-orange-600/30 animate-pulse">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-400 via-sky-500 to-indigo-600 p-[2px] flex items-center justify-center shadow-lg shadow-cyan-500/30">
           <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
-            <i class="fa-solid fa-fire-flame-curved text-orange-400 text-lg"></i>
+            <span class="text-lg">🗡️</span>
           </div>
         </div>
         <div>
           <div class="flex items-center gap-2">
-            <h1 class="font-['Cinzel',serif] font-black text-sm sm:text-lg tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-amber-300 via-orange-400 to-red-500">
-              REALISTIC PALM FIRE AR
+            <h1 class="font-['Orbitron',sans-serif] font-black text-sm sm:text-lg tracking-wider bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-sky-400 to-indigo-400">
+              ONE-HAND KNIFE GAME
             </h1>
-            <span class="text-[10px] px-2 py-0.5 rounded-full bg-orange-950/80 border border-orange-700/60 text-orange-300 font-mono font-bold tracking-tight">SINGLE HAND</span>
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-cyan-950/80 border border-cyan-700/60 text-cyan-300 font-mono font-bold tracking-tight">SINGLE HAND</span>
           </div>
-          <p class="text-[11px] text-slate-400 hidden sm:block">Photorealistic Live-Camera Combustion Simulation & 3D Hand Tracking</p>
+          <p class="text-[11px] text-slate-400 hidden sm:block">Live-Camera Hand Tracking · Virtual Knife · Slash the Flying Balls</p>
         </div>
       </div>
 
-      <!-- Live Tracking & Camera Status Badges -->
+      <!-- Tracker & FPS Badges -->
       <div class="flex items-center space-x-2 sm:space-x-3">
-        <!-- Tracker Status Badge -->
         <div id="tracker-status-badge" class="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 text-[11px] font-mono text-slate-400">
-          <span id="tracker-dot" class="w-2 h-2 rounded-full bg-amber-500 animate-ping"></span>
-          <span id="tracker-text">AI TRACKER READY</span>
+          <span id="tracker-dot" class="w-2 h-2 rounded-full bg-slate-500"></span>
+          <span id="tracker-text">TRACKER LOADING</span>
         </div>
-
-        <!-- FPS Meter -->
-        <div class="bg-slate-900 border border-slate-800 text-amber-400 font-mono text-xs px-2.5 py-1 rounded-lg flex items-center gap-1">
+        <div class="bg-slate-900 border border-slate-800 text-cyan-400 font-mono text-xs px-2.5 py-1 rounded-lg flex items-center gap-1">
           <i class="fa-solid fa-gauge-high text-[10px] text-slate-500"></i>
-          <span id="fps-counter">60 FPS</span>
+          <span id="fps-counter">-- FPS</span>
         </div>
       </div>
 
@@ -67,203 +64,169 @@
 
   <!-- MAIN VIEWPORT CONTAINER -->
   <main class="flex-1 max-w-6xl w-full mx-auto p-3 sm:p-6 flex flex-col gap-4">
-    
-    <!-- AR VIEWPORT BOX -->
+
+    <!-- GAME VIEWPORT BOX -->
     <div class="glass-panel p-3 sm:p-5 rounded-2xl flex flex-col gap-3 shadow-2xl">
-      
+
       <!-- Top Viewport Control Bar -->
       <div class="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-slate-800/80">
-        
-        <!-- Left: Status & Active Hand State -->
         <div class="flex items-center space-x-3">
           <div class="flex items-center space-x-2">
             <span id="cam-status-dot" class="w-2.5 h-2.5 rounded-full bg-slate-600"></span>
             <span class="font-mono text-xs text-slate-300 font-semibold" id="cam-status-text">CAMERA OFF</span>
           </div>
-
           <div class="h-3 w-[1px] bg-slate-800 hidden sm:block"></div>
-
-          <!-- Hand Lock Indicator -->
           <div id="hand-lock-badge" class="flex items-center gap-1.5 text-xs font-medium text-slate-500 transition-colors">
             <i class="fa-solid fa-hand text-xs" id="hand-lock-icon"></i>
             <span id="hand-lock-text">No hand in view</span>
           </div>
         </div>
-
-        <!-- Right: Fire State Pill Button -->
         <div class="flex items-center gap-2">
-          <button id="btn-fire-toggle" class="px-4 py-1.5 rounded-full text-xs font-bold border transition flex items-center gap-2 bg-slate-900/90 border-slate-700 text-slate-400 hover:border-orange-500/50">
-            <span id="fire-pill-dot" class="w-2 h-2 rounded-full bg-slate-500"></span>
-            <span id="fire-pill-text">FIRE: OFF</span>
-            <kbd class="hidden sm:inline-block px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400 font-mono border border-slate-700">Space</kbd>
-          </button>
+          <span class="text-[10px] font-mono text-slate-500 hidden sm:inline">numHands = 1</span>
         </div>
-
       </div>
 
-      <!-- MAIN CAMERA CANVAS VIEWPORT (Mirrored for natural live camera mirror feel) -->
-      <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-black border border-slate-800 shadow-2xl flex items-center justify-center select-none group" id="camera-viewport-box">
-        
-        <!-- Hidden Video Stream for WebCam Capture -->
+      <!-- MAIN GAME CANVAS VIEWPORT (Mirrored for natural selfie view) -->
+      <div class="relative w-full aspect-video rounded-xl overflow-hidden bg-black border border-slate-800 shadow-2xl select-none" id="camera-viewport-box">
+
+        <!-- Hidden Video Stream for WebCam -->
         <video id="webcam-video" autoplay playsinline muted class="hidden"></video>
 
-        <!-- Main WebGL 2.0 / 1.0 High-Performance Render Canvas -->
-        <canvas id="ar-canvas" width="1280" height="720" class="w-full h-full object-contain cursor-crosshair"></canvas>
+        <!-- Main Render Canvas -->
+        <canvas id="game-canvas" width="1280" height="720" class="w-full h-full object-contain cursor-crosshair"></canvas>
 
-        <!-- Start Camera Overlay (Shown before camera is activated) -->
-        <div id="camera-prompt-overlay" class="absolute inset-0 bg-slate-950/92 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center z-20 transition-all duration-300">
-          <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-500/20 via-orange-600/20 to-red-600/20 border border-orange-500/40 flex items-center justify-center text-orange-400 text-3xl mb-4 shadow-xl shadow-orange-500/10 animate-bounce">
-            <i class="fa-solid fa-fire-burner"></i>
+        <!-- IN-GAME HUD: SCORE / COMBO / LIVES -->
+        <div id="hud" class="absolute inset-x-0 top-0 p-3 sm:p-4 flex items-start justify-between pointer-events-none z-10 hidden">
+          <div class="hud-chip">
+            <span class="hud-label">SCORE</span>
+            <span class="hud-value" id="hud-score">0</span>
           </div>
-          
-          <h2 class="font-['Cinzel',serif] text-xl sm:text-2xl font-bold text-slate-100 mb-2">
-            Photorealistic Palm Fire AR
-          </h2>
-          
-          <p class="text-xs sm:text-sm text-slate-300 max-w-lg mb-6 leading-relaxed">
-            Hold your palm in front of the camera. Real physical combustion with turbulent convection, heat-haze refraction, dynamic hand illumination, and depth-aware finger occlusion will erupt from your palm.
-          </p>
-
-          <div class="flex flex-col sm:flex-row items-center gap-3">
-            <button id="btn-start-webcam" class="px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 via-orange-500 to-red-600 hover:from-amber-400 hover:to-red-500 text-slate-950 font-black text-sm sm:text-base shadow-xl shadow-orange-500/30 transition transform hover:scale-[1.02] flex items-center gap-2.5 cursor-pointer">
-              <i class="fa-solid fa-camera"></i>
-              <span>Start Live Camera</span>
-            </button>
+          <div class="hud-chip text-center">
+            <span class="hud-label">COMBO</span>
+            <span class="hud-value" id="hud-combo">x1</span>
           </div>
-
-          <p class="text-[11px] text-slate-500 mt-4 flex items-center gap-1.5">
-            <i class="fa-solid fa-shield-halved text-xs"></i>
-            100% Private & Real-time on Device (Processed locally via GPU/WASM)
-          </p>
-        </div>
-
-        <!-- Recording Banner -->
-        <div id="ar-recording-banner" class="absolute top-4 left-4 bg-red-600/90 backdrop-blur-sm text-white font-bold text-xs px-3.5 py-1.5 rounded-lg flex items-center gap-2 shadow-lg hidden animate-pulse z-30 font-mono">
-          <span class="w-2 h-2 rounded-full bg-white animate-ping"></span>
-          <span id="ar-recording-timer">RECORDING: 0s / 5s</span>
-        </div>
-
-        <!-- Flame Ignition Pop Toast -->
-        <div id="flame-alert" class="absolute bottom-6 left-1/2 -translate-x-1/2 pointer-events-none opacity-0 transition-opacity duration-300 z-30">
-          <div class="px-4 py-1.5 rounded-full bg-orange-600/90 backdrop-blur-md border border-amber-400/50 text-white font-mono text-xs font-bold shadow-xl shadow-orange-600/40 flex items-center gap-2">
-            <i class="fa-solid fa-fire text-amber-300"></i>
-            <span id="flame-alert-text">IGNITED</span>
+          <div class="hud-chip text-right">
+            <span class="hud-label">LIVES</span>
+            <span class="flex gap-1 justify-end mt-1" id="hud-lives">
+              <i class="fa-solid fa-heart life-on"></i>
+              <i class="fa-solid fa-heart life-on"></i>
+              <i class="fa-solid fa-heart life-on"></i>
+            </span>
           </div>
         </div>
 
-      </div>
-
-      <!-- BOTTOM CONTROL CONSOLE -->
-      <div class="mt-2 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-4">
-        
-        <!-- Left: Main Action Controls -->
-        <div class="flex items-center flex-wrap gap-2.5">
-          <!-- Main Fire Button -->
-          <button id="btn-ignite-action" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 via-orange-600 to-red-600 hover:from-amber-400 hover:to-red-500 text-slate-950 font-black text-xs sm:text-sm shadow-lg shadow-orange-600/25 transition transform active:scale-95 flex items-center gap-2 cursor-pointer">
-            <i class="fa-solid fa-fire text-black"></i>
-            <span id="btn-ignite-text">IGNITE FIRE</span>
-          </button>
-
-          <!-- Camera Toggle (Start / Stop) -->
-          <button id="btn-camera-toggle" class="px-3.5 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold border border-slate-700 transition flex items-center gap-2 cursor-pointer">
-            <i class="fa-solid fa-video" id="btn-camera-icon"></i>
-            <span id="btn-camera-text">Camera Active</span>
-          </button>
-
-          <!-- Flip Mirror Toggle -->
-          <button id="btn-flip-camera" class="p-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs border border-slate-700 transition cursor-pointer" title="Mirror / Flip Camera (Selfie Mode)">
-            <i class="fa-solid fa-arrows-rotate"></i>
-          </button>
+        <!-- Combo Pop -->
+        <div id="combo-pop" class="absolute inset-0 flex items-center justify-center pointer-events-none z-10 opacity-0">
+          <span id="combo-pop-text" class="font-['Orbitron',sans-serif] font-black text-4xl sm:text-6xl text-cyan-300 drop-shadow-[0_0_25px_rgba(34,211,238,0.9)]"></span>
         </div>
 
-        <!-- Center: Flame Intensity Slider -->
-        <div class="flex items-center gap-3 bg-slate-900/90 px-4 py-2 rounded-xl border border-slate-800 min-w-[220px]">
-          <span class="text-xs text-slate-400 font-medium whitespace-nowrap flex items-center gap-1.5">
-            <i class="fa-solid fa-fire-burner text-orange-400 text-xs"></i>
-            Intensity:
+        <!-- Miss Flash -->
+        <div id="miss-flash" class="absolute inset-0 pointer-events-none z-10 opacity-0"></div>
+
+        <!-- Hand hint -->
+        <div id="hand-hint" class="absolute bottom-4 inset-x-0 flex justify-center pointer-events-none z-10 opacity-0 transition-opacity duration-300">
+          <span class="px-4 py-1.5 rounded-full bg-slate-950/80 border border-cyan-700/50 text-cyan-200 text-xs font-mono">
+            ✋ Show ONE hand to the camera — your index finger holds the knife
           </span>
-          <input type="range" id="slider-flame-intensity" min="0.4" max="2.2" step="0.05" value="1.0" class="slider-range">
-          <span id="val-flame-intensity" class="text-xs font-mono font-bold text-amber-400 min-w-[32px] text-right">1.0x</span>
         </div>
 
-        <!-- Right: Options (Heat Distortion, Sound, Record) -->
-        <div class="flex items-center flex-wrap gap-2.5">
-          <!-- Heat Distortion Toggle -->
-          <button id="btn-toggle-distortion" class="px-3 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-amber-400 text-xs font-semibold border border-slate-800 transition flex items-center gap-1.5 cursor-pointer" title="Heat Haze Refraction">
-            <i class="fa-solid fa-water text-orange-400"></i>
-            <span class="hidden sm:inline">Heat Haze</span>
-            <span id="badge-distortion" class="text-[10px] px-1.5 py-0.2 rounded bg-orange-950 border border-orange-700 text-orange-300 font-mono font-bold">ON</span>
-          </button>
-
-          <!-- Real-time SFX Audio Toggle -->
-          <button id="btn-toggle-sound" class="p-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 text-xs border border-slate-800 transition cursor-pointer" title="Realistic Combustion Audio">
-            <i class="fa-solid fa-volume-high text-orange-400" id="icon-sound"></i>
-          </button>
-
-          <!-- Record AR Video -->
-          <div class="flex items-center gap-1.5">
-            <select id="ar-export-duration" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-xl px-2.5 py-2 outline-none focus:border-orange-500">
-              <option value="5" selected>5s Video</option>
-              <option value="10">10s Video</option>
-              <option value="15">15s Video</option>
-            </select>
-
-            <button id="btn-record-ar-video" class="px-3.5 py-2 rounded-xl bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 text-white text-xs font-bold shadow-lg shadow-red-600/20 transition flex items-center gap-1.5 cursor-pointer">
-              <i class="fa-solid fa-circle text-[10px] text-white animate-pulse"></i>
-              <span>Record</span>
-            </button>
+        <!-- Start Camera Overlay -->
+        <div id="camera-prompt-overlay" class="absolute inset-0 bg-slate-950/92 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center z-20 transition-all duration-300">
+          <div class="w-16 h-16 rounded-2xl bg-gradient-to-tr from-cyan-500/20 via-sky-600/20 to-indigo-600/20 border border-cyan-500/40 flex items-center justify-center text-3xl mb-4 shadow-xl shadow-cyan-500/10 animate-bounce">
+            <span>🗡️</span>
           </div>
+          <h2 class="font-['Orbitron',sans-serif] text-xl sm:text-2xl font-bold text-slate-100 mb-2">
+            ONE-HAND KNIFE CUTTING GAME
+          </h2>
+          <p class="text-sm text-slate-400 max-w-md mb-6 leading-relaxed">
+            Turn on your camera and show <strong class="text-cyan-300">one hand</strong>.
+            Your index finger becomes a <strong class="text-cyan-300">virtual knife</strong>.
+            Slash through the <strong class="text-cyan-300">flying balls</strong> to split them before they fall!
+          </p>
+          <button id="btn-start-camera" class="btn-primary">
+            <i class="fa-solid fa-camera"></i>
+            START CAMERA
+          </button>
+          <p id="camera-error-text" class="text-xs text-rose-400 mt-3 h-4"></p>
+          <p class="text-[11px] text-slate-500 mt-1">No camera? You can still play with mouse / touch after starting.</p>
+        </div>
+
+        <!-- Start Game Overlay (after camera ready) -->
+        <div id="game-start-overlay" class="absolute inset-0 bg-slate-950/85 backdrop-blur-md flex-col items-center justify-center p-6 text-center z-20 transition-all duration-300 hidden">
+          <div class="w-14 h-14 rounded-full bg-cyan-500/15 border border-cyan-500/40 flex items-center justify-center text-2xl mb-4 text-cyan-300">
+            <i class="fa-solid fa-hand-pointer"></i>
+          </div>
+          <h2 class="font-['Orbitron',sans-serif] text-lg sm:text-xl font-bold text-slate-100 mb-2">CAMERA READY</h2>
+          <p class="text-sm text-slate-400 mb-6">Hold your hand up — the knife locks onto your index finger.</p>
+          <button id="btn-start-game" class="btn-primary">
+            <i class="fa-solid fa-play"></i>
+            START GAME
+          </button>
+          <p class="text-[11px] text-slate-500 mt-3">3 missed balls = game over · fast consecutive cuts build your combo</p>
+        </div>
+
+        <!-- Game Over Overlay -->
+        <div id="gameover-overlay" class="absolute inset-0 bg-slate-950/90 backdrop-blur-md flex-col items-center justify-center p-6 text-center z-20 transition-all duration-300 hidden">
+          <h2 class="font-['Orbitron',sans-serif] text-3xl sm:text-4xl font-black text-rose-400 drop-shadow-[0_0_20px_rgba(251,113,133,0.6)] mb-3">
+            GAME OVER
+          </h2>
+          <div class="flex items-center gap-6 mb-2">
+            <div class="text-center">
+              <div class="text-[11px] font-mono text-slate-500 tracking-widest">SCORE</div>
+              <div id="final-score" class="font-['Orbitron',sans-serif] text-4xl font-black text-cyan-300">0</div>
+            </div>
+            <div class="w-[1px] h-12 bg-slate-800"></div>
+            <div class="text-center">
+              <div class="text-[11px] font-mono text-slate-500 tracking-widest">BEST</div>
+              <div id="best-score" class="font-['Orbitron',sans-serif] text-4xl font-black text-slate-300">0</div>
+            </div>
+          </div>
+          <p id="gameover-sub" class="text-xs text-slate-500 mb-6">3 balls escaped the blade</p>
+          <button id="btn-restart" class="btn-primary">
+            <i class="fa-solid fa-rotate-right"></i>
+            RESTART
+          </button>
+          <p class="text-[11px] text-slate-500 mt-3">Press <kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 font-mono text-[10px]">R</kbd> to restart instantly</p>
         </div>
 
       </div>
 
+      <!-- Viewport Footer Status -->
+      <div class="flex flex-wrap items-center justify-between gap-2 pt-1 text-[11px] text-slate-500 font-mono">
+        <span id="mode-note">MODE: WAITING FOR CAMERA</span>
+        <span>knife tip = index fingertip · swept-segment collision (no tunneling)</span>
+      </div>
     </div>
 
-    <!-- TECHNICAL REALISM OVERVIEW CARDS -->
-    <div class="grid grid-cols-1 sm:grid-cols-4 gap-3 text-xs">
-      
-      <div class="glass-panel p-3 rounded-xl border border-slate-800/80 flex items-start gap-2.5">
-        <div class="text-orange-400 text-base mt-0.5"><i class="fa-solid fa-hand-holding-hand"></i></div>
-        <div>
-          <h4 class="font-bold text-slate-200 text-xs mb-0.5">Anatomical Palm Anchor</h4>
-          <p class="text-[11px] text-slate-400 leading-snug">Calculated from 21 hand landmarks & 3D palm normal vector. Aligns with palm tilt & rotation.</p>
+    <!-- HOW TO PLAY -->
+    <div class="glass-panel p-4 sm:p-5 rounded-2xl">
+      <h3 class="font-['Orbitron',sans-serif] font-bold text-sm tracking-widest text-slate-300 mb-3 flex items-center gap-2">
+        <i class="fa-solid fa-circle-play text-cyan-400"></i> HOW TO PLAY
+      </h3>
+      <div class="grid sm:grid-cols-3 gap-3">
+        <div class="howto-card">
+          <div class="howto-num">1</div>
+          <div class="font-semibold text-slate-200 text-sm mb-1">Show one hand</div>
+          <p class="text-xs text-slate-400 leading-relaxed">Start the camera and hold up <strong>one hand</strong>. Single-hand tracking (numHands = 1) locks a virtual knife onto your index finger.</p>
+        </div>
+        <div class="howto-card">
+          <div class="howto-num">2</div>
+          <div class="font-semibold text-slate-200 text-sm mb-1">Slash through balls</div>
+          <p class="text-xs text-slate-400 leading-relaxed">Balls fly up with real projectile physics. Sweep the knife through them — fast swings are detected with swept line-segment collision, so nothing tunnels through.</p>
+        </div>
+        <div class="howto-card">
+          <div class="howto-num">3</div>
+          <div class="font-semibold text-slate-200 text-sm mb-1">Score, combo, survive</div>
+          <p class="text-xs text-slate-400 leading-relaxed">Each cut splits a ball and scores points. Chain cuts fast to grow your <strong>combo</strong>. Let 3 balls drop and it's game over — restart instantly.</p>
         </div>
       </div>
-
-      <div class="glass-panel p-3 rounded-xl border border-slate-800/80 flex items-start gap-2.5">
-        <div class="text-amber-400 text-base mt-0.5"><i class="fa-solid fa-fire-burner"></i></div>
-        <div>
-          <h4 class="font-bold text-slate-200 text-xs mb-0.5">Blackbody Radiation</h4>
-          <p class="text-[11px] text-slate-400 leading-snug">Multi-octave Simplex noise advection with white-hot core, blue ignition rim & turbulent tongues.</p>
-        </div>
-      </div>
-
-      <div class="glass-panel p-3 rounded-xl border border-slate-800/80 flex items-start gap-2.5">
-        <div class="text-orange-500 text-base mt-0.5"><i class="fa-solid fa-layer-group"></i></div>
-        <div>
-          <h4 class="font-bold text-slate-200 text-xs mb-0.5">3D Hand Occlusion</h4>
-          <p class="text-[11px] text-slate-400 leading-snug">When fingers cup or move in front of palm ($z &lt; z_{palm}$), fingers occlude flame naturally.</p>
-        </div>
-      </div>
-
-      <div class="glass-panel p-3 rounded-xl border border-slate-800/80 flex items-start gap-2.5">
-        <div class="text-red-400 text-base mt-0.5"><i class="fa-solid fa-wind"></i></div>
-        <div>
-          <h4 class="font-bold text-slate-200 text-xs mb-0.5">Heat Haze & Illumination</h4>
-          <p class="text-[11px] text-slate-400 leading-snug">Refractive heat distortion plus dynamic point-light casting warm flickering glow on skin.</p>
-        </div>
-      </div>
-
     </div>
 
+    <p class="text-center text-[11px] text-slate-600 font-mono pb-2">
+      ONE-HAND KNIFE GAME · v3.0 · MediaPipe Hands (single hand) · canvas 2D physics
+    </p>
   </main>
 
-  <!-- FOOTER -->
-  <footer class="border-t border-slate-900 bg-slate-950/90 py-3 px-4 text-center text-xs text-slate-500 font-mono">
-    Photorealistic Single-Hand Fire AR &bull; WebGL 2.0 Shader Engine &bull; MediaPipe 3D Landmark Tracking
-  </footer>
-
-  <!-- MAIN REALISTIC FIRE APPLICATION SCRIPT (Cache-Busting) -->
-  <script src="app.js?v=2.0"></script>
+  <script src="app.js?v=3.0"></script>
 </body>
 </html>
